@@ -1,16 +1,19 @@
-# Phase 000 — Project Intake & Product Definition
+# Phase 000 — Project intake navigation
 
-Phase 000 is the pre-methodology intake phase. It establishes a sufficiently grounded, evidence-aware project definition for Jackson-aligned concept design to begin without freezing a solution.
+## Governing Base contracts
+- [Phase definition](phase-definition.md)
+- [000-A methodology start gate](000-a-start-gate.md)
+- [Intake knowledge contract](intake-knowledge-contract.md)
+- [Exit review contract](exit-review-template.md)
 
-## Phase contract
+## Project-specific execution records
+- [000-A completed intake planning](000-a-project-start-gate.md)
+- [000-B historical evidence](000-b-history.md)
+- [000-C actors and outcomes](000-c-actors-outcomes.md)
+- [000-D architecture neutrality](000-d-architecture-posture.md)
+- [000-E boundaries](000-e-boundaries.md)
+- [000-F gaps](000-f-gaps.md)
+- [000-G exit HOLD and handoff](000-g-exit.md)
+- [Canonical project intake](../../canonical/project/intake.md)
 
-- [Phase definition](phase-definition.md) — methodological intention, boundaries, entry/exit criteria, and implementation state.
-- [000-A — Phase Intent, Intake Scope, Evidence Posture & Subphase Planning](000-a-start-gate.md) — mandatory start gate that derives the project-specific intake work.
-- [Intake Knowledge & Evidence Contract](intake-knowledge-contract.md) — statement classes, evidence posture, uncertainty, and required intake coverage.
-- [Exit Review & Phase 001 Handoff Template](exit-review-template.md) — reusable closure test used by the dynamically selected final Phase 000 subphase.
-
-## Navigation
-
-- [All phases](../)
-- [Canonical design knowledge](../../canonical/)
-- [Methodology](../../methodology/)
+The Base 000-A file is the governing template; the project-specific 000-A is its execution record. Phase 000 remains NOT READY TO EXIT until independent review accepts the corrected exact head.
