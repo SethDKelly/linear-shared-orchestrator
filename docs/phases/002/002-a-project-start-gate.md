@@ -13,7 +13,7 @@ sources:
 ---
 # 002-A — Project discovery start gate
 
-**Status: READY TO BEGIN PHASE 002 SUBPHASES — project start-gate recommendation; independent review pending.**
+**Status: READY TO BEGIN PHASE 002 SUBPHASES — independently verified PASS at a62d7d4 on 2026-10-22.**
 
 ## Entry authorization
 On 2026-10-22, sponsor explicitly accepted Phase 001 PASS WITH CARRY-FORWARD and authorized transition to Phase 002. This admits the [mandatory 002-A start gate](002-a-start-gate.md), not substantive candidate discovery or implementation. Phase 001 [exit evidence and carry-forwards](../001/001-f-exit.md) remain authoritative.
@@ -74,4 +74,4 @@ Use project-specific `docs/phases/002/002-b-*.md` through `002-f-*.md` as phase 
 
 ## Start-gate decision and boundaries
 
-**READY TO BEGIN PHASE 002 SUBPHASES (recommended).** Planned B–F workstreams and dependency sequence above satisfy the 002-A planning contract. This is a project start-gate readiness recommendation, not Phase 002 exit, concept approval, or implementation approval. Independent review of this new exact head is requested before treating the plan as review-cleared. Linear issues are the planning mirror, not canonical design authority.
+**READY TO BEGIN PHASE 002 SUBPHASES (recommended).** Planned B–F workstreams and dependency sequence above satisfy the 002-A planning contract. This is a project start-gate readiness recommendation, not Phase 002 exit, concept approval, or implementation approval. Independent Cursor exact-head review at a62d7d4 returned PASS, closing S1/S2 and the named minor wording checks; [review evidence](https://github.com/SethDKelly/linear-shared-orchestrator/pull/2#issuecomment-6348728541). The review covers the substantive planning baseline; this status-record update is administrative. Linear issues are the planning mirror, not canonical design authority.
