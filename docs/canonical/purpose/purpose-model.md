@@ -19,4 +19,4 @@ See [001-E](../../phases/001/001-e-success.md) for six representative success/fa
 ## Stakeholders and tensions
 See [001-B](../../phases/001/001-b-needs.md) and [001-D](../../phases/001/001-d-context-tensions.md). Sponsor assertions are not independent empirical validation. Operator population, baseline burden, costs, downstream impacts and project-specific requirements remain unresolved.
 ## Exclusions
-No concept catalog, workflow schema, agent/provider selection, runtime, architecture or implementation choice is authorized by these purposes. Phase 001 exit is not independently accepted.
+No concept catalog, workflow schema, agent/provider selection, runtime, architecture or implementation choice is authorized by these purposes. Phase 001 exit was sponsor-accepted PASS WITH CARRY-FORWARD on 2026-10-22 after independent Cursor review; this provisional purpose model retains its explicit evidence limitations.
