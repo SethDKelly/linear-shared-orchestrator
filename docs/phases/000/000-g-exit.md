@@ -13,7 +13,7 @@ sources:
 ---
 
 # 000-G — Consolidation, exit assessment and Phase 001 handoff
-Status: EXIT ACCEPTED — sponsor authorization 2026-10-22; independent Cursor PASS on e4cc9182.
+Status: EXIT ACCEPTED — sponsor authorization 2026-10-22; independent Cursor documentation/methodology PASS on e4cc9182; sponsor separately accepted exit.
 ## Coverage review
 Project identity, motivating context, actors, desired outcomes, boundaries, terminology, constraints, source posture, current-state evidence and uncertainties are recorded in 000-B–F and canonical project intake.
 ## Knowledge authority
@@ -21,8 +21,8 @@ Current intake: docs/canonical/project/intake.md. Historical evidence: 000-B–F
 ## Anti-solutioning
 No schema, provider, infrastructure, runtime, repository boundary, or concept decomposition has been selected as final. Existing architectural ideas are explicitly proposals.
 ## Exit result
-Decision: **PHASE 000 EXIT ACCEPTED**. Cursor's independent exact-head review of e4cc9182 reported PASS after remediation of prior blockers (review comment 6334333391). Sponsor explicitly authorized formal Phase 000 acceptance on 2026-10-22. This is methodology intake acceptance, not PR merge approval, implementation approval, or waiver of G01–G14.
-## Template import disposition (remediation evidence; not exit acceptance)
+Decision: **PHASE 000 EXIT ACCEPTED**. Cursor's exact-head review of e4cc9182 reported methodology/documentation PASS but expressly did not authorize phase exit ([review comment](https://github.com/SethDKelly/linear-shared-orchestrator/pull/2#issuecomment-6334333391)). The sponsor subsequently and separately authorized formal Phase 000 acceptance in this conversation on 2026-10-22; the acceptance was recorded in commit 40d2dff. This is a sponsor decision, not an independent reviewer exit-acceptance claim. This is methodology intake acceptance, not PR merge approval, implementation approval, or waiver of G01–G14.
+## Template import disposition (independent review evidence; sponsor exit acceptance recorded separately)
 
 Adopted from [Base commit 3078410](https://github.com/SethDKelly/Base/tree/3078410da427351bb9d139b8881c31a960072a7a): methodology and phase contracts for 000–012, including the previously absent 002–011 phase templates and 012 support contracts. Phase 000 project records and canonical intake are local, not Base copies. The Base-only Phase 012 self-audit history is deliberately excluded because it is not this project's progress. Base root agent instruction adapters and README are deferred for project-specific Phase 012 preparation. No Linear/orchestrator onboarding into Base is authorized before completion and dogfooding.
 
