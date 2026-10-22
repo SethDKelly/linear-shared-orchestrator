@@ -1,7 +1,7 @@
 ---
 type: Canonical Purpose Model
 title: Shared Orchestration — Purpose and Success
-description: Current provisional purpose model for Phase 001, subject to independent exit review.
+description: Provisional purpose model following sponsor-accepted Phase 001 exit, with evidence limitations retained.
 tags: [canonical, phase-001, purpose]
 sources:
   - id: project-intake
