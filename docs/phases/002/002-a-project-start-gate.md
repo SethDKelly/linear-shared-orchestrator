@@ -61,6 +61,10 @@ During divergence record tentative purpose association, user mental model, behav
 
 **Dependency rationale:** B generates unconstrained evidence-qualified seeds; C and D can progress in parallel after B because C studies decomposition and D studies external constraints; E waits for both to avoid premature convergence; F independently reconciles the complete result. Separate files and distinct issue scopes minimize overlap.
 
+## Linear planning mirror
+
+Parent [S-95](https://linear.app/s-kelly/issue/S-95), start gate [S-107](https://linear.app/s-kelly/issue/S-107), and derived workstreams: [002-B S-123](https://linear.app/s-kelly/issue/S-123), [002-C S-124](https://linear.app/s-kelly/issue/S-124), [002-D S-125](https://linear.app/s-kelly/issue/S-125), [002-E S-126](https://linear.app/s-kelly/issue/S-126), [002-F S-127](https://linear.app/s-kelly/issue/S-127). Blocking relations mirror B → C/D → E → F. The repository remains the design authority.
+
 ## Documentation and Phase 003 handoff
 Use project-specific `docs/phases/002/002-b-*.md` through `002-f-*.md` as phase evidence. The [canonical purpose model](../../canonical/purpose/purpose-model.md) stays authoritative for purpose. Promote only stable retained semantic candidates into provisional canonical concept knowledge; rejected seeds stay in phase records. Update Phase 002 and canonical indexes only for actual promoted knowledge. Phase 003 must receive candidate-to-purpose associations, behavior/mental-model sketches, alternative decomposition history, provisional boundaries, provenance and explicit unresolved specification questions. Reopen Phase 001 if a purpose proves defective.
 
