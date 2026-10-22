@@ -12,7 +12,8 @@ sources:
 ## Overall human purpose
 Help responsible maintainers, reviewers and sponsors reach trustworthy, comprehensible and appropriately authorized change decisions across differing project contexts, without unnecessary repeated coordination or concealed risk.
 ## Distinct purpose obligations
-P01: trustworthy current change state. P02: informed bounded sponsor authorization. P03: honest recovery from unavailable review. P04: preservation of local project authority. P05: independently challengeable findings. P06: accurate handoff and completion status. P07: prevent avoidable harmful changes while enabling useful improvement.
+P01: trustworthy current change state. P02: informed bounded sponsor authorization. P03: honest recovery from unavailable review. P04: preservation of the owning project's local decision and security boundaries, independent of coordination mechanism. P05: independently challengeable findings. P06: accurate handoff and completion status. P07: broad product-level protection against avoidable harm; not a standalone concept-discriminating obligation.
+See [001-C purpose decomposition and counterexamples](../../phases/001/001-c-purposes.md) for the distinct purpose rationale. Contributors and evidence subjects are affected parties whose needs remain hypotheses.
 ## Evaluation posture
 See [001-E](../../phases/001/001-e-success.md) for seven representative success/failure situations. These are candidate tests, not validated quantitative thresholds.
 ## Stakeholders and tensions
