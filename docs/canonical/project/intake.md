@@ -3,6 +3,13 @@ type: Canonical Project Intake
 title: Shared Agentic Delivery and Review Orchestration — Intake
 description: Current provisional project framing and uncertainties, reconciled from Phase 000.
 tags: [canonical, intake, shared-orchestration]
+sources:
+  - id: base-methodology
+    resource: https://github.com/SethDKelly/Base/tree/3078410da427351bb9d139b8881c31a960072a7a
+    title: Pinned Base methodology
+  - id: shared-linear
+    resource: https://linear.app/s-kelly/project/shared-agentic-delivery-and-review-orchestration-3be70452c5e3
+    title: Project planning context
 ---
 # Shared Agentic Delivery & Review Orchestration
 ## Contemplated capability
@@ -14,9 +21,9 @@ Sponsor, maintainers, delivery agents, independent reviewers, service/provider o
 ## Intended outcomes
 Reliable, auditable, low-friction cross-repository delivery/review coordination; safe recovery from unavailable reviewers; preserved local security/release authority; portable onboarding.
 ## Boundaries
-No automatic merge, security-exit waiver, AWS/Terraform apply, credential sharing or promotion of unavailable/quota-blocked reviews to approval. TreatFlow remains unblocked and current controller authoritative pending separate migration approval. aws-backbone retains infrastructure authority. Base integration of Linear/orchestrator is deferred until the orchestrator is completed and dogfooding validates the pattern.
+No automatic merge, security-exit waiver, AWS/Terraform apply, credential sharing or promotion of unavailable/quota-blocked reviews to approval. TreatFlow is an intended proving ground. Its current controller authority and qualification have not been independently verified here; this intake authorizes no migration or governance change. aws-backbone retains infrastructure authority. Base integration of Linear/orchestrator is deferred until the orchestrator is completed and dogfooding validates the pattern.
 ## Evidence and uncertainty
-Prior conversations are attributed stakeholder/history context, not runtime verification. S-81 PR #1 and shared architecture are proposals. Current gaps G01–G14 are tracked in docs/phases/000/000-f-gaps.md. Concept decomposition, API schemas, persistence, provider selection and runtime architecture remain open.
+Prior conversations are attributed stakeholder/history context, not runtime verification. S-81 PR #1 and shared architecture are proposals. Current gaps G01–G14 are tracked in the [Phase 000 gap register](../../phases/000/000-f-gaps.md). Concept decomposition, API schemas, persistence, provider selection and runtime architecture remain open.
 
 ## Evidence classifications
 - **Stakeholder assertions:** desired cross-project reuse; TreatFlow as proving ground; SYNGAN as next intended consumer; human sponsor approval preference.

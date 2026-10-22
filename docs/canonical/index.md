@@ -2,6 +2,10 @@
 
 This directory contains the **current authoritative design state** for a project created from Base. Phase records explain how conclusions were reached; canonical documents state what the design currently means.
 
+## Current project knowledge
+
+- [Canonical project intake](project/intake.md) — provisional project framing, evidence classifications and unresolved questions. Phase 000 exit is on HOLD.
+
 ## Typical knowledge families
 
 A cloned project should create only the families its design actually needs. Common families may include:

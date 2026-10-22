@@ -9,14 +9,9 @@ Phase 012 is the post-concept-design transition between successful Phase 011 clo
 - [Pre-Implementation Repository Readiness Contract](pre-implementation-readiness-contract.md) — OKF, staleness, README, agentic-governance, anti-bloat, and engineering-handoff requirements.
 - [Exit Review & Engineering Handoff Template](exit-review-template.md) — reusable final Phase 012 preparation decision.
 
-## Base template execution
+## Local execution status
 
-- [012-A Base Template Execution](012-a-base-template-execution.md) — formal execution of the start gate against Base itself, including the template-maintenance prerequisite interpretation, initial audit risks, and the dynamically derived `012-B` through `012-G` work sequence.
-- [012-B Base Template OKF Structural Audit](012-b-base-template-okf-audit.md) — exhaustive structural trial confirming ordinary-document `type` frontmatter, reserved-index rules, bundle-root OKF declaration, provenance shape, and corpus-integrity boundaries.
-
-Current execution state: **012-B complete — ready for 012-C**.
-
-The Base self-audit does not claim a product-specific Phase 011 closure. The normal Phase 011 prerequisite remains mandatory for repositories cloned from Base.
+**NOT STARTED in this project.** The Base-only 012-A/012-B self-audit records were deliberately not imported as project evidence. See the [pinned Base Phase 012 history](https://github.com/SethDKelly/Base/tree/3078410da427351bb9d139b8881c31a960072a7a/docs/phases/012). This project must first accept Phase 011.
 
 ## Lifecycle position
 

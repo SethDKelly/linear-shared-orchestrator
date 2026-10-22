@@ -4,8 +4,12 @@ title: 000-c-actors-outcomes
 description: Project-specific historical intake evidence; not concept-design authority.
 tags: [phase-000, intake, evidence]
 sources:
-  - https://github.com/SethDKelly/Base/tree/3078410da427351bb9d139b8881c31a960072a7a
-  - https://linear.app/s-kelly/project/shared-agentic-delivery-and-review-orchestration-3be70452c5e3
+  - id: base-methodology
+    resource: https://github.com/SethDKelly/Base/tree/3078410da427351bb9d139b8881c31a960072a7a
+    title: Pinned Base methodology
+  - id: shared-linear
+    resource: https://linear.app/s-kelly/project/shared-agentic-delivery-and-review-orchestration-3be70452c5e3
+    title: Project planning context
 ---
 
 # 000-C — Actors, context and desired outcomes

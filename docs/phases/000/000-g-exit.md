@@ -4,8 +4,12 @@ title: 000-g-exit
 description: Project-specific historical intake evidence; not concept-design authority.
 tags: [phase-000, intake, evidence]
 sources:
-  - https://github.com/SethDKelly/Base/tree/3078410da427351bb9d139b8881c31a960072a7a
-  - https://linear.app/s-kelly/project/shared-agentic-delivery-and-review-orchestration-3be70452c5e3
+  - id: base-methodology
+    resource: https://github.com/SethDKelly/Base/tree/3078410da427351bb9d139b8881c31a960072a7a
+    title: Pinned Base methodology
+  - id: shared-linear
+    resource: https://linear.app/s-kelly/project/shared-agentic-delivery-and-review-orchestration-3be70452c5e3
+    title: Project planning context
 ---
 
 # 000-G — Consolidation, exit assessment and Phase 001 handoff
@@ -18,6 +22,12 @@ Current intake: docs/canonical/project/intake.md. Historical evidence: 000-B–F
 No schema, provider, infrastructure, runtime, repository boundary, or concept decomposition has been selected as final. Existing architectural ideas are explicitly proposals.
 ## Exit result
 Decision: **NOT READY TO EXIT**. The prior Cursor review identified high/medium documentation, evidence and provenance defects. Remediation does not self-certify exit; fresh independent review is required.
+## Template import disposition (remediation evidence; not exit acceptance)
+
+Adopted from [Base commit 3078410](https://github.com/SethDKelly/Base/tree/3078410da427351bb9d139b8881c31a960072a7a): methodology and phase contracts for 000–012, including the previously absent 002–011 phase templates and 012 support contracts. Phase 000 project records and canonical intake are local, not Base copies. The Base-only Phase 012 self-audit history is deliberately excluded because it is not this project's progress. Base root agent instruction adapters and README are deferred for project-specific Phase 012 preparation. No Linear/orchestrator onboarding into Base is authorized before completion and dogfooding.
+
+Import/link integrity requires independent exact-head verification. The Phase 000 exit remains NOT READY TO EXIT; this import does not admit Phase 001 or later phases.
+
 ## Phase 001 handoff
 Investigate operator and sponsor purposes, independence, safe progress, failure intelligibility, evidence quality, trust boundaries, cost, and cross-project reuse. Revisit inherited architecture without treating it as authority. Preserve G01–G14.
 

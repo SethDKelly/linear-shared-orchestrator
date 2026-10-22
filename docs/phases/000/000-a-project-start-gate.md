@@ -4,8 +4,12 @@ title: 000-a-project-start-gate
 description: Project-specific historical intake evidence; not concept-design authority.
 tags: [phase-000, intake, evidence]
 sources:
-  - https://github.com/SethDKelly/Base/tree/3078410da427351bb9d139b8881c31a960072a7a
-  - https://linear.app/s-kelly/project/shared-agentic-delivery-and-review-orchestration-3be70452c5e3
+  - id: base-methodology
+    resource: https://github.com/SethDKelly/Base/tree/3078410da427351bb9d139b8881c31a960072a7a
+    title: Pinned Base methodology
+  - id: shared-linear
+    resource: https://linear.app/s-kelly/project/shared-agentic-delivery-and-review-orchestration-3be70452c5e3
+    title: Project planning context
 ---
 
 # 000-A — Project-specific start gate and intake plan
@@ -13,7 +17,7 @@ Status: COMPLETED for planning; design-only. Base Phase 000 governs.
 ## Project
 Shared Agentic Delivery & Review Orchestration: a proposed reusable capability supporting multiple repositories' bounded delivery and independent review while retaining project-specific authority.
 ## Source posture
-Inputs: Base template at main (2026-10-22); aws-backbone PR #10 and S-40 (historical, unresolved); TreatFlow S-32/S-33/S-76/S-77–S-80 (mixed implementation and proposal); Linear P-S-3 S-81–S-85; prior conversations (stakeholder assertions, not independently verified); initial S-81 draft PR #1 (proposal, not accepted architecture).
+Inputs: Base methodology pinned at commit `3078410da427351bb9d139b8881c31a960072a7a` (2026-09-11); aws-backbone PR #10 and S-40 (historical, unresolved); TreatFlow S-32/S-33/S-76/S-77–S-80 (mixed implementation and proposal); Linear P-S-3 S-81–S-85; prior conversations (stakeholder assertions, not independently verified); initial S-81 draft PR #1 (proposal, not accepted architecture).
 ## Coverage
 Product definition: adequate provisional. Problem/opportunity: adequate provisional. Actors: needs work. Desired outcomes: adequate provisional. Scope/non-goals: needs work. Terminology: needs work. External constraints: needs work. Assumptions: needs work. Questions: needs work. Evidence/provenance: needs work. Legacy behavior: needs work.
 ## Subphase sequence

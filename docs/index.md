@@ -2,15 +2,15 @@
 okf_version: "0.2"
 ---
 
-# Base Knowledge Bundle
+# Shared Orchestrator Knowledge Bundle
 
-This directory is the Open Knowledge Format (OKF) v0.2 knowledge bundle for Base. It guides a cloned project from project intake through completed Jackson-aligned software concept design, then through a post-closure pre-implementation repository preparation phase before downstream engineering begins.
+This directory is the Open Knowledge Format (OKF) v0.2 knowledge bundle for this project, adopting [Base methodology at commit 3078410](https://github.com/SethDKelly/Base/tree/3078410da427351bb9d139b8881c31a960072a7a). It guides this project from project intake through completed Jackson-aligned software concept design, then through a post-closure pre-implementation repository preparation phase before downstream engineering begins.
 
 ## Start here
 
 - [Methodology](methodology/) — design authority, lifecycle, documentation/knowledge governance, design-only guardrails, and agentic development governance.
 - [Lifecycle phases](phases/) — Phases 000–011 for concept design plus Phase 012 for post-closure pre-implementation preparation.
-- [Canonical knowledge](canonical/) — the compact current design truth produced by a cloned project.
+- [Canonical knowledge](canonical/) — the current provisional project intake and later durable design truth. Phase 000 is not yet accepted.
 
 ## Governing contracts
 
