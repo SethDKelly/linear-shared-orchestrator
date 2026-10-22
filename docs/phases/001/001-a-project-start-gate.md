@@ -15,7 +15,7 @@ sources:
 Status: READY TO BEGIN PHASE 001 SUBPHASES (design-only).
 
 ## Entry and source assessment
-Phase 000 independently reviewed PASS at e4cc9182, formally accepted by sponsor on 2026-10-22. Canonical intake and G01–G14 are discoverable. History is a mixture of stakeholder assertions, project tracker context, and unverified implementation state; treat existing S-81 architecture as a proposal, not an accepted concept. Phase 001 may challenge Phase 000 framing.
+Phase 000 documentation/methodology received an independent Cursor PASS at e4cc9182, which explicitly withheld phase-exit authorization. The sponsor separately authorized formal Phase 000 acceptance on 2026-10-22; see [000-G](../000/000-g-exit.md). Canonical intake and G01–G14 are discoverable. History is a mixture of stakeholder assertions, project tracker context, and unverified implementation state; treat existing S-81 architecture as a proposal, not an accepted concept. Phase 001 may challenge Phase 000 framing.
 
 ## Coverage assessment
 | Dimension | Assessment | Action |
