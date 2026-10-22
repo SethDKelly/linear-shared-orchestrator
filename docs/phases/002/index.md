@@ -9,6 +9,10 @@ Phase 002 explores materially different candidate concepts and conceptual decomp
 - [Candidate Concept & Divergent Discovery Contract](candidate-discovery-contract.md) — concept criteria, divergent tactics, alternative decomposition, candidate disposition, convergence, and documentation rules.
 - [Exit Review & Phase 003 Handoff Template](exit-review-template.md) — reusable closure test used by the dynamically selected final Phase 002 subphase.
 
+## Project transition status
+
+Phase 001 [sponsor-accepted exit](../001/001-f-exit.md) is PASS WITH CARRY-FORWARD (2026-10-22). Phase 002 entry is admitted for its mandatory 002-A start gate; no substantive concept discovery, final concept catalog, or implementation is authorized by admission alone. Carry-forward obligations remain active.
+
 ## Refinement status
 
 **Refined.**
