@@ -6,7 +6,7 @@ This directory contains the **current authoritative design state** for a project
 
 - [Canonical project intake](project/intake.md) — provisional project framing, evidence classifications and unresolved questions. Phase 000 exit was accepted by sponsor on 2026-10-22.
 
-- [Current provisional purpose model](purpose/purpose-model.md) — Phase 001 needs and success framing; Phase 001 exit remains HOLD.
+- [Current provisional purpose model](purpose/purpose-model.md) — Phase 001 needs and success framing; Phase 001 exit is sponsor-accepted with explicit carry-forwards; Phase 002 start gate is admitted.
 
 ## Typical knowledge families
 
