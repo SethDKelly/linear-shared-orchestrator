@@ -14,7 +14,7 @@ Status: ANALYSIS COMPLETE; candidate evaluation situations, not validated thresh
 |---|---|---|
 | P01 | After a head changes, maintainer can identify which evidence remains applicable | Earlier commit's review silently counts |
 | P02 | Sponsor sees outstanding findings and precise authorization scope before acting | Merge proceeds from technical PASS alone |
-| P03 | Review provider unavailable; operator sees a honest pending or blocked state until independent evidence is available | Quota/timeout yields green state |
+| P03 | Review provider unavailable; operator sees an honest pending or blocked state until independent evidence is available | Quota/timeout yields green state |
 | P04 | In a hypothetical future comparison, two adopting projects impose different local gates; each retains its own required exit evidence | One project's gate is weakened by reuse |
 | P05 | Reviewer can reconstruct each material finding's original evidence and disposition | Finding disappears without explanation |
 | P06 | Review acknowledged but incomplete; contributor sees pending, not completed | Acknowledgment represented as review PASS |
