@@ -15,8 +15,9 @@ Phase 001 [sponsor-accepted exit](../001/001-f-exit.md) is PASS WITH CARRY-FORWA
 
 - [002-A project-specific entry record](002-a-project-start-gate.md) — independently verified PASS.
 - [002-B purpose-first divergent seeds](002-b-purpose-first-seeds.md) — independent PASS on provisional divergent handoff; no selected concept.
-- [002-C alternative decompositions](002-c-alternative-decompositions.md) — divergent structural comparisons; independent review pending.
-- [002-D cross-context challenge](002-d-cross-context-challenge.md) — adversarial harm, familiarity and anchoring tests; independent review pending.
+- [002-C alternative decompositions](002-c-alternative-decompositions.md) — independent divergent handoff PASS.
+- [002-D cross-context challenge](002-d-cross-context-challenge.md) — independent divergent handoff PASS.
+- [002-E bounded convergence](002-e-bounded-convergence.md) — provisional screening and Phase 003 questions; independent review pending.
 
 ## Refinement status
 
