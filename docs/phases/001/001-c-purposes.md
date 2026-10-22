@@ -1,3 +1,13 @@
+---
+type: Phase 001 Project Record
+title: 001-C — Purpose obligations
+description: Need-focused and solution-neutral purpose decomposition.
+tags: [phase-001, purpose, evidence]
+sources:
+  - id: needs
+    resource: 001-b-needs.md
+    title: Provisional affected-party needs
+---
 # 001-C — Need-focused purpose obligations
 Status: ANALYSIS COMPLETE; hypotheses require Phase 001 exit scrutiny.
 | ID | Need-focused purpose | Failure counterexample |
@@ -5,8 +15,10 @@ Status: ANALYSIS COMPLETE; hypotheses require Phase 001 exit scrutiny.
 | P01 | A maintainer can determine the current trustworthy state of a change without reconstructing scattered evidence | A stale review appears current |
 | P02 | A sponsor can make a bounded authorization decision with explicit unresolved risks | Review PASS silently implies merge authority |
 | P03 | An operator can recover progress after reviewer unavailability without hiding missing independent evaluation | Quota exhaustion becomes automatic clearance |
-| P04 | Different projects can preserve their own acceptance/security boundaries while benefiting from repeatable coordination | Shared defaults override a stricter local gate |
+| P04 | Different projects can preserve their own acceptance/security boundaries regardless of how work is coordinated | Shared defaults override a stricter local gate |
 | P05 | A reviewer can identify prior findings and independently challenge their disposition | A resolved label substitutes for evidence |
 | P06 | Contributors can distinguish genuine completed work from pending or failed work across handoffs | An acknowledged request is reported as finished |
-| P07 | Affected users avoid preventable unsafe or misleading changes while receiving useful improvements | Review volume improves but harmful defects increase |
-These are provisional purpose obligations, not candidate software concepts or product KPIs.
+
+P01 concerns applicability of evidence to the current change; P05 concerns challengeability of finding history; P06 concerns truthful progress state. These are separately testable, though empirical validation remains outstanding. Delivery-agent stop conditions are a candidate need to examine in 001-B, not a prematurely fixed concept.
+
+Broad avoidance of downstream harm is an overall product-level protective purpose, not a seventh discriminating obligation. These are provisional purposes, not candidate software concepts or product KPIs.
