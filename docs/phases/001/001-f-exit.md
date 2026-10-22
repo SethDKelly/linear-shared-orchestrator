@@ -1,7 +1,7 @@
 ---
 type: Phase 001 Project Record
 title: 001-F — Consolidation and exit assessment
-description: Phase 001 evidence audit and Phase 002 handoff under HOLD.
+description: Sponsor-accepted Phase 001 exit with explicit non-blocking carry-forwards.
 tags: [phase-001, exit, evidence]
 sources:
   - id: purpose-model
@@ -9,7 +9,7 @@ sources:
     title: Canonical provisional purpose model
 ---
 # 001-F — Consolidation and independent exit
-Status: **PASS WITH CARRY-FORWARD — recommended for sponsor decision, NOT YET ACCEPTED**. Cursor exact-head PASS at 91aa50f confirmed the last residuals. Phase 002 remains BLOCKED pending separate sponsor acceptance.
+Status: **PASS WITH CARRY-FORWARD — SPONSOR ACCEPTED 2026-10-22**. Independent Cursor exact-head PASS at 91aa50f supports substantive corrections; formal reconciliation committed at 1ee96c3. Sponsor separately authorized Phase 001 acceptance with documented carry-forwards and transition to Phase 002 on 2026-10-22. Phase 002 start gate is admitted, not automatically passed.
 ## Evidence
 001-B through 001-E capture affected-party needs, need-focused obligations, contextual tensions and representative success/failure situations. Current canonical ownership: [purpose model](../../canonical/purpose/purpose-model.md); Phase 000 intake remains separate.
 ## Open concerns
@@ -63,4 +63,7 @@ Challenge whether P01–P06 are truly separable, need-focused and evaluable; whe
 
 **Phase 002 discovery boundary:** Read [canonical purpose](../../canonical/purpose/purpose-model.md), [Phase 000 intake](../../canonical/project/intake.md), [001-B needs](001-b-needs.md), [001-D tensions](001-d-context-tensions.md), [001-E success](001-e-success.md), and [Phase 002 definition](../002/phase-definition.md). Explore multiple divergent concept decompositions; inherited S-81/PR #1 architecture, ReviewReceipt, controller, provider and integration choices remain quarantined proposals. No implementation.
 
-**Decision recommendation:** PASS WITH CARRY-FORWARD is warranted by independent reviews and explicit non-blocking uncertainties. **Sponsor acceptance is not recorded or presumed.** Until the sponsor explicitly accepts Phase 001 exit, the effective phase gate is HOLD and Phase 002 entry remains BLOCKED. PR #2 stays Draft/unmerged. Implementation readiness NOT READY; execution NOT STARTED; authorization NOT YET.
+**Decision recommendation:** PASS WITH CARRY-FORWARD is warranted by independent reviews and explicit non-blocking uncertainties. **Sponsor acceptance was explicitly granted in the conversation on 2026-10-22, after the formal reconciliation.** Phase 001 exit is accepted PASS WITH CARRY-FORWARD; Phase 002 002-A start gate may begin, but substantive Phase 002 discovery must wait for its start-gate outcome. PR #2 stays Draft/unmerged. Implementation readiness NOT READY; execution NOT STARTED; authorization NOT YET.
+
+## Sponsor acceptance record — 2026-10-22
+The sponsor stated: “I formally accept the phase 001 with documented carry-forwards. Transition to phase 002.” This is a separate decision from Cursor's independent review and does not approve PR #2 merge, implementation, or any specific concept/architecture. The carry-forward destinations and uncertainties above remain binding. Phase 002 002-A is now eligible to start.
