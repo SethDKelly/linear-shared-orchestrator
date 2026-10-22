@@ -9,7 +9,7 @@ sources:
     title: Canonical provisional purpose model
 ---
 # 001-F — Consolidation and independent exit
-Status: HOLD — Cursor PASS at 5379dd3 closed F1–F8; minor clarity corrections require new exact-head verification. Sponsor Phase 001 exit acceptance remains separate.
+Status: **PASS WITH CARRY-FORWARD — recommended for sponsor decision, NOT YET ACCEPTED**. Cursor exact-head PASS at 91aa50f confirmed the last residuals. Phase 002 remains BLOCKED pending separate sponsor acceptance.
 ## Evidence
 001-B through 001-E capture affected-party needs, need-focused obligations, contextual tensions and representative success/failure situations. Current canonical ownership: [purpose model](../../canonical/purpose/purpose-model.md); Phase 000 intake remains separate.
 ## Open concerns
@@ -28,8 +28,8 @@ Challenge whether P01–P06 are truly separable, need-focused and evaluable; whe
 | Context and tensions | Carry-forward | [001-D](001-d-context-tensions.md); cross-project comparison hypothetical |
 | Evaluable success situations | Established provisionally | [001-E](001-e-success.md); no validated thresholds |
 | Evidence provenance | Carry-forward | Stakeholder reports and historical status are not independent operational proof |
-| Documentation integrity | Blocking until verified | Recheck frontmatter, links, indexes and canonical ownership at latest exact head |
-| Independent adversarial review | Blocking | Cursor PASS at 5379dd3; verify the latest minor corrections before final exit recommendation |
+| Documentation integrity | Established | Cursor checked 434 relative documentation links with zero broken at 91aa50f; navigation and OKF frontmatter passed at 5379dd3 |
+| Independent adversarial review | Established | Cursor PASS at 5379dd3 for F1–F8, at 56e056e for residuals, and at 91aa50f for final wording; Codex unavailable |
 | Concept/implementation neutrality | Established provisionally | No concept catalog or implementation authorized |
 
 ## Phase 002 handoff inventory (candidate, not admitted)
@@ -43,3 +43,24 @@ Challenge whether P01–P06 are truly separable, need-focused and evaluable; whe
 - Freedom: Phase 002 may diverge from or reject every inherited orchestration architecture proposal; no concept or provider chosen.
 - Entry: BLOCKED until Phase 001 independent exit review and sponsor exit acceptance.
 - Implementation: NOT READY / NOT STARTED / NOT AUTHORIZED.
+
+## Formal exit reconciliation — 2026-10-22 (recommendation, not acceptance)
+
+**Planned work:** 001-A start gate completed; 001-B affected-party matrix, 001-C P01–P06 purposes, 001-D contextual tensions, 001-E success situations, and 001-F consolidation/handoff have records. No planned Phase 001 workstream is silently discarded.
+
+**Purpose coverage dispositions:** Overall purpose, motivating burdens, six distinct obligations, representative success and design neutrality are established provisionally. Affected-party interviews, measured burdens, context-specific constraints, tensions, evidence traceability and assumptions are **established with uncertainty / incomplete non-blocking carry-forwards**, not validated operational claims. No known dimension is declared not applicable.
+
+**Quality and distribution:** P01 evidence applicability, P02 sponsor authority, P03 honest review unavailability, P04 local policy autonomy, P05 independently challengeable findings and P06 truthful completion are distinct evaluable obligations. Broad downstream harm avoidance is a product-level guardrail, not a seventh design-purpose obligation. Contributor, evidence-subject and downstream-user needs are explicit hypotheses. No stakeholder preference substitutes for security or repository authority.
+
+**Independent evidence:** [F1–F8 reconciliation PASS](https://github.com/SethDKelly/linear-shared-orchestrator/pull/2#issuecomment-6334885646) at 5379dd3; [low residual PASS](https://github.com/SethDKelly/linear-shared-orchestrator/pull/2#issuecomment-6343042928) at 56e056e; [latest exact-head PASS](https://github.com/SethDKelly/linear-shared-orchestrator/pull/2#issuecomment-6346625963) at 91aa50f69a3beb25bdd3029c3555f867ebddc5f2. Latest reviewer verified 434 relative docs links, zero missing. These are independent *review findings*, not sponsor phase acceptance or PR merge authorization.
+
+**Non-blocking carry-forwards with destinations/triggers:**
+- Missing sponsor, contributor, operator, reviewer, evidence-subject and downstream-user interviews: carry to Phase 002 start-gate evidence plan; revisit before choosing concept boundaries that materially affect those parties.
+- Baselines for reconciliation burden, false advancement, missed findings, costs and recovery time: carry to Phase 002 evaluation planning; establish before claiming quantitative improvement.
+- Privacy, sensitive-evidence access/retention, provider independence and local security constraints: carry to Phase 002 candidate challenge and later policy/authority gates; do not assume consent or authority.
+- G01–G14 from [Phase 000 gap register](../000/000-f-gaps.md): keep open, allocate to Phase 002 start-gate and subsequent applicable phases, do not infer closure.
+- TreatFlow/SYNGAN/aws-backbone historical comparisons: treat as stakeholder-reported context until separately verified; no operational claim in concept discovery.
+
+**Phase 002 discovery boundary:** Read [canonical purpose](../../canonical/purpose/purpose-model.md), [Phase 000 intake](../../canonical/project/intake.md), [001-B needs](001-b-needs.md), [001-D tensions](001-d-context-tensions.md), [001-E success](001-e-success.md), and [Phase 002 definition](../002/phase-definition.md). Explore multiple divergent concept decompositions; inherited S-81/PR #1 architecture, ReviewReceipt, controller, provider and integration choices remain quarantined proposals. No implementation.
+
+**Decision recommendation:** PASS WITH CARRY-FORWARD is warranted by independent reviews and explicit non-blocking uncertainties. **Sponsor acceptance is not recorded or presumed.** Until the sponsor explicitly accepts Phase 001 exit, the effective phase gate is HOLD and Phase 002 entry remains BLOCKED. PR #2 stays Draft/unmerged. Implementation readiness NOT READY; execution NOT STARTED; authorization NOT YET.
