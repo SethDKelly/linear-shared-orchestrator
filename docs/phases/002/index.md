@@ -17,7 +17,8 @@ Phase 001 [sponsor-accepted exit](../001/001-f-exit.md) is PASS WITH CARRY-FORWA
 - [002-B purpose-first divergent seeds](002-b-purpose-first-seeds.md) — independent PASS on provisional divergent handoff; no selected concept.
 - [002-C alternative decompositions](002-c-alternative-decompositions.md) — independent divergent handoff PASS.
 - [002-D cross-context challenge](002-d-cross-context-challenge.md) — independent divergent handoff PASS.
-- [002-E bounded convergence](002-e-bounded-convergence.md) — provisional screening and Phase 003 questions; independent review pending.
+- [002-E bounded convergence](002-e-bounded-convergence.md) — independent PASS; provisional hypotheses, not canonical concepts.
+- [002-F exit assessment and Phase 003 handoff](002-f-exit-assessment.md) — proposed PASS WITH CARRY-FORWARD; independent exit review and sponsor acceptance pending.
 
 ## Refinement status
 
