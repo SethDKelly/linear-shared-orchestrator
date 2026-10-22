@@ -13,7 +13,7 @@ sources:
 ---
 # 002-D — Cross-context, harm and anchoring challenge
 
-**Status: ADVERSARIAL DISCOVERY DRAFT; independent review pending. No candidate approved.**
+**Status: ADVERSARIAL DISCOVERY DRAFT; independent exact-head PASS at 35aa01a; handoff to 002-E supported. No candidate approved.**
 
 ## Evidence boundary
 [002-B](002-b-purpose-first-seeds.md) and [Phase 001 needs](../001/001-b-needs.md) are provisional. TreatFlow, SYNGAN, aws-backbone, S-40 HOLD / PR #10 and provider-quota anecdotes are *stakeholder-reported context*, not independently verified project states or clearance. No sensitive credentials, personal data or protected records are collected here. Candidate constraints are **questions and protective hypotheses**, not adopted policies.
