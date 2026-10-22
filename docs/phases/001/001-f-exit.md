@@ -15,7 +15,7 @@ Status: **PASS WITH CARRY-FORWARD — SPONSOR ACCEPTED 2026-10-22**. Independent
 ## Open concerns
 Historical stakeholder accounts are not empirical user research; some affected-party needs are inferred. Numeric thresholds, baseline costs and operational constraints remain unvalidated. G01–G14 carry forward without automatic closure.
 ## Exit audit
-Purpose statements are provisional and intended to discriminate candidate concepts; they do not select concepts. A full documentation governance, navigation and independent adversarial review is required. No Phase 002 admission until independent PASS and separate exit acceptance. No implementation authorized.
+Purpose statements are provisional and intended to discriminate candidate concepts; they do not select concepts. A full documentation governance, navigation and independent adversarial review is required. The independent review and separate sponsor acceptance conditions were satisfied on 2026-10-22; Phase 002-A entry is admitted. No implementation authorized.
 ## Independent review questions
 Challenge whether P01–P06 are truly separable, need-focused and evaluable; whether sponsor assumptions are treated as evidence; whether affected parties and harms are missing; whether success situations distinguish solutions; whether architecture has been smuggled into purposes; whether canonical navigation and source provenance are sound.
 
@@ -32,7 +32,7 @@ Challenge whether P01–P06 are truly separable, need-focused and evaluable; whe
 | Independent adversarial review | Established | Cursor PASS at 5379dd3 for F1–F8, at 56e056e for residuals, and at 91aa50f for final wording; Codex unavailable |
 | Concept/implementation neutrality | Established provisionally | No concept catalog or implementation authorized |
 
-## Phase 002 handoff inventory (candidate, not admitted)
+## Phase 002 handoff inventory (sponsor-accepted; provisional purposes and open carry-forwards)
 - Human purpose: understandable, trustworthy, bounded change decisions for maintainers, sponsors and reviewers.
 - Purpose obligations: P01–P06 in [001-C](001-c-purposes.md); overall harm protection is contextual, not P07.
 - Affected parties: [001-B](001-b-needs.md), including contributors, evidence subjects and hypothesized downstream users.
@@ -41,10 +41,10 @@ Challenge whether P01–P06 are truly separable, need-focused and evaluable; whe
 - Current canonical owner: [purpose model](../../canonical/purpose/purpose-model.md); Phase 000 [intake](../../canonical/project/intake.md) remains contextual authority.
 - Unresolved: G01–G14, interviews, measured baselines, privacy constraints, cross-project operational proof.
 - Freedom: Phase 002 may diverge from or reject every inherited orchestration architecture proposal; no concept or provider chosen.
-- Entry: BLOCKED until Phase 001 independent exit review and sponsor exit acceptance.
+- Entry: Phase 002-A ADMITTED on 2026-10-22 after independent Phase 001 review and explicit sponsor acceptance; substantive Phase 002-B onward awaits the 002-A start-gate verdict.
 - Implementation: NOT READY / NOT STARTED / NOT AUTHORIZED.
 
-## Formal exit reconciliation — 2026-10-22 (recommendation, not acceptance)
+## Formal exit reconciliation — 2026-10-22 (recommendation subsequently sponsor-accepted)
 
 **Planned work:** 001-A start gate completed; 001-B affected-party matrix, 001-C P01–P06 purposes, 001-D contextual tensions, 001-E success situations, and 001-F consolidation/handoff have records. No planned Phase 001 workstream is silently discarded.
 
