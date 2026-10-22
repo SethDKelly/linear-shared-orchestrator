@@ -13,7 +13,7 @@ sources:
 ---
 # 002-C — Alternative decompositions
 
-**Status: DIVERGENT ANALYSIS DRAFT; independent review pending. No preferred architecture or concept.**
+**Status: DIVERGENT ANALYSIS DRAFT; independent exact-head PASS at 35aa01a; handoff to 002-E supported. No preferred architecture or concept.**
 
 ## Comparison rules
 Use [002-B](002-b-purpose-first-seeds.md) as *hypothesis evidence*, not canonical concepts. A material alternative changes user mental model, responsibility, authorization or observable behavior; a provider swap, renamed receipt or reorganized schema does not. All alternatives must preserve sponsor authority, truthful pending states, local project boundaries and challengeable findings. No candidate is selected.
