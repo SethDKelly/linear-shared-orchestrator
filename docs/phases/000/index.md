@@ -16,4 +16,4 @@
 - [000-G sponsor-accepted exit and handoff](000-g-exit.md)
 - [Canonical project intake](../../canonical/project/intake.md)
 
-The Base 000-A file is the governing template; the project-specific 000-A is its execution record. Phase 000 methodology/documentation received independent Cursor PASS at e4cc9182; sponsor separately authorized Phase 000 exit on 2026-10-22. Phase 001 exit remains HOLD.
+The Base 000-A file is the governing template; the project-specific 000-A is its execution record. Phase 000 methodology/documentation received independent Cursor PASS at e4cc9182; sponsor separately authorized Phase 000 exit on 2026-10-22. Phase 001 exit was separately sponsor-accepted with carry-forwards on 2026-10-22.
