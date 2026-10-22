@@ -9,7 +9,7 @@ sources:
     title: Canonical provisional purpose model
 ---
 # 001-F — Consolidation and independent exit
-Status: HOLD — prior independent Cursor review found F1–F8 at 75cd2db; corrections require exact-head independent re-review.
+Status: HOLD — Cursor PASS at 5379dd3 closed F1–F8; minor clarity corrections require new exact-head verification. Sponsor Phase 001 exit acceptance remains separate.
 ## Evidence
 001-B through 001-E capture affected-party needs, need-focused obligations, contextual tensions and representative success/failure situations. Current canonical ownership: [purpose model](../../canonical/purpose/purpose-model.md); Phase 000 intake remains separate.
 ## Open concerns
@@ -29,7 +29,7 @@ Challenge whether P01–P06 are truly separable, need-focused and evaluable; whe
 | Evaluable success situations | Established provisionally | [001-E](001-e-success.md); no validated thresholds |
 | Evidence provenance | Carry-forward | Stakeholder reports and historical status are not independent operational proof |
 | Documentation integrity | Blocking until verified | Recheck frontmatter, links, indexes and canonical ownership at latest exact head |
-| Independent adversarial review | Blocking | Fresh Cursor review required after corrective commits |
+| Independent adversarial review | Blocking | Cursor PASS at 5379dd3; verify the latest minor corrections before final exit recommendation |
 | Concept/implementation neutrality | Established provisionally | No concept catalog or implementation authorized |
 
 ## Phase 002 handoff inventory (candidate, not admitted)
