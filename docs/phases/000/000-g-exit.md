@@ -13,7 +13,7 @@ sources:
 ---
 
 # 000-G — Consolidation, exit assessment and Phase 001 handoff
-Status: NOT READY TO EXIT — prior independent review HOLD; remediation pending exact-head re-review.
+Status: EXIT ACCEPTED — sponsor authorization 2026-10-22; independent Cursor PASS on e4cc9182.
 ## Coverage review
 Project identity, motivating context, actors, desired outcomes, boundaries, terminology, constraints, source posture, current-state evidence and uncertainties are recorded in 000-B–F and canonical project intake.
 ## Knowledge authority
@@ -21,17 +21,17 @@ Current intake: docs/canonical/project/intake.md. Historical evidence: 000-B–F
 ## Anti-solutioning
 No schema, provider, infrastructure, runtime, repository boundary, or concept decomposition has been selected as final. Existing architectural ideas are explicitly proposals.
 ## Exit result
-Decision: **NOT READY TO EXIT**. The prior Cursor review identified high/medium documentation, evidence and provenance defects. Remediation does not self-certify exit; fresh independent review is required.
+Decision: **PHASE 000 EXIT ACCEPTED**. Cursor's independent exact-head review of e4cc9182 reported PASS after remediation of prior blockers (review comment 6334333391). Sponsor explicitly authorized formal Phase 000 acceptance on 2026-10-22. This is methodology intake acceptance, not PR merge approval, implementation approval, or waiver of G01–G14.
 ## Template import disposition (remediation evidence; not exit acceptance)
 
 Adopted from [Base commit 3078410](https://github.com/SethDKelly/Base/tree/3078410da427351bb9d139b8881c31a960072a7a): methodology and phase contracts for 000–012, including the previously absent 002–011 phase templates and 012 support contracts. Phase 000 project records and canonical intake are local, not Base copies. The Base-only Phase 012 self-audit history is deliberately excluded because it is not this project's progress. Base root agent instruction adapters and README are deferred for project-specific Phase 012 preparation. No Linear/orchestrator onboarding into Base is authorized before completion and dogfooding.
 
-Import/link integrity requires independent exact-head verification. The Phase 000 exit remains NOT READY TO EXIT; this import does not admit Phase 001 or later phases.
+Independent Cursor review reported 408 relative links verified with zero broken targets at e4cc9182. Phase 000 exit is accepted by sponsor; Phase 001 start gate is admitted, not Phase 001 exit or Phase 002.
 
 ## Phase 001 handoff
 Investigate operator and sponsor purposes, independence, safe progress, failure intelligibility, evidence quality, trust boundaries, cost, and cross-project reuse. Revisit inherited architecture without treating it as authority. Preserve G01–G14.
 
-## Complete Phase 001 handoff (candidate; not admitted)
+## Complete Phase 001 handoff (admitted to start gate; not substantive work until 001-A passes)
 - Contemplated capability: shared cross-repository review and bounded delivery coordination.
 - Motivation: repeated review-provider failures, cumulative finding tracking and source/approval ambiguity.
 - Parties: sponsor, maintainers, delivery agents, independent reviewers, provider operators, downstream users.
