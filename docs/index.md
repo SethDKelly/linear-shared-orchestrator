@@ -10,7 +10,7 @@ This directory is the Open Knowledge Format (OKF) v0.2 knowledge bundle for this
 
 - [Methodology](methodology/) — design authority, lifecycle, documentation/knowledge governance, design-only guardrails, and agentic development governance.
 - [Lifecycle phases](phases/) — Phases 000–011 for concept design plus Phase 012 for post-closure pre-implementation preparation.
-- [Canonical knowledge](canonical/) — the current provisional project intake and later durable design truth. Phase 000 is not yet accepted.
+- [Canonical knowledge](canonical/) — the sponsor-accepted Phase 000 intake and provisional Phase 001 purpose model; Phase 001 exit remains HOLD.
 
 ## Governing contracts
 
