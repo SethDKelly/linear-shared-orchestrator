@@ -19,7 +19,7 @@ sources:
 ---
 # 003-E — Behavioral reconciliation and concept ownership
 
-**Status: PROPOSED RECONCILIATION — independent exact-head review pending; no canonical concept promotion.**
+**Status: INDEPENDENT HOLD at fa26514 (P06 behavioral ownership undefined); corrective 003-B return underway. 003-F NOT ADMITTED. No canonical concept promotion.**
 
 ## Scope and independent inputs
 003-B passed at `8384ddc`; parallel 003-C and 003-D received **separate PASS** at `321bbf0` ([independent review](https://github.com/SethDKelly/linear-shared-orchestrator/pull/2#issuecomment-6355627436)). Those reviews admit reconciliation; they do not prove user value, accept Phase 003 exit, or authorize canonical promotion. The [003-C](003-c-abstract-behavior-specifications.md) specification and [003-D](003-d-authority-correction-adversarial.md) challenge retain separate provenance; their overlap is assessed here rather than treating either as the other's clearance.
@@ -81,4 +81,4 @@ The surviving characteristic behavior is an explicit, accountable actor's author
 - **E-306:** Phase 005 composition, Phase 007 mapping, and later empirical/security validation must not be disguised as Phase 003 concept actions. No API, storage, UI, provider, controller or workflow choices.
 
 ## Exit eligibility and limitations
-**Proposed 003-E result: READY FOR INDEPENDENT RECONCILIATION REVIEW, not yet 003-F admission.** No canonical concept owner is created because stable independent identity and P06 behavioral ownership are not established. A reviewer must specifically determine whether that restraint is acceptable for a Phase 003 specification gate or whether the unresolved P06 obligation forces additional 003-B/C work. If HOLD, remediate/reopen rather than treating this as a blanket deferral. Sponsor Phase 003 exit acceptance, PR #2 merge, Phase 004 entry and implementation remain unauthorized.
+**003-E verdict: HOLD — 003-F NOT ADMITTED.** The independent reviewer required a bounded [003-B completion-identity return](003-b-completion-identity-return.md) to specify the missing P06 behavior before repeating affected 003-C/003-D work and reconciliation. No canonical concept owner is created because stable independent identity and P06 behavioral ownership are not established. A reviewer must specifically determine whether that restraint is acceptable for a Phase 003 specification gate or whether the unresolved P06 obligation forces additional 003-B/C work. If HOLD, remediate/reopen rather than treating this as a blanket deferral. Sponsor Phase 003 exit acceptance, PR #2 merge, Phase 004 entry and implementation remain unauthorized.
