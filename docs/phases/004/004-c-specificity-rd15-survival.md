@@ -53,7 +53,7 @@ These are **logical counterexamples against the current specification**, not pro
 | Basis later invalidated or work reidentified | `InvalidateBasis` removes dependent current substantiation; `ReidentifyWork` removes inherited assessments/claims/bases | Can the minimal concept distinguish historic evidence from fresh support without a specific storage mechanism? **Provisionally yes at abstract level; independent challenge required** |
 | Failure, partial, unknown, nonresponse, timeout or quota | None creates a substantiated result | No infrastructure-specific retry/timeout behavior is authorized |
 
-**RD-15 status: OPEN, survival not demonstrated.** The abstract guard expresses a condition but does not yet prove that a credible, independently meaningful basis and eligible actor can be identified without hidden infrastructure. An independent review must challenge whether that is a *concept-level incompleteness* requiring scoped re-specification or a *failed concept identity* requiring **Phase 002-C reopening**. Neither a PASS nor a return decision is presumed here.
+**Independent 004-C ruling at `fba7b20`: PASS WITH CARRY-FORWARD; no Phase 002-C return required on RD-15.** A viable concept-level basis is *attributable, revision-applicable, challengeable support*. Citation alone does not establish credibility. Actor eligibility is an abstract predicate, not an actor name, provider response, issue state, coordinator, C3 authority basis or hidden IAM. Concrete basis credibility and actor-eligibility rules remain **open** and must not be invented. This is a bounded abstract survival result, not empirical verification or permission to close RD-14.
 
 ## Boundary preservation and next gate
 
