@@ -31,14 +31,17 @@ sources:
 
 | Obligation | Next evidence / test | Status |
 |---|---|---|
-| RD-15 | R-06 basis credibility and actor eligibility survival; if credible basis requires hidden infrastructure, consider Phase 002-C reopening | **Open**, 004-C admitted for bounded test |
-| RD-14 | C1 generic-case collapse versus C2/R-06 only after RD-15 | **Open**, not decided |
-| E-301–E-304 | C1 generic case, obligation claims, challenge and narrative pressures | **Open**, exact original mapping to be verified before closure |
+| RD-15 | R-06 basis credibility and actor eligibility survival. PR #3's later independent 004-C review found an abstract survival relation and no Phase 002-C return; this is not a main-branch or sponsor-exit decision | **Open concrete criteria**; PR #3 has independent 004-C PASS WITH CARRY-FORWARD, not merged or sponsor-exited |
+| RD-14 | C1 generic-case collapse versus C2/R-06; a collapse reopens Phase 002-C. The RD-15-first order is PR #3's workstream dependency, not the accepted obligation itself | **Open**, not decided |
+| E-301 | RD-14: test C2 and R-06 against the C1 generic case | **Open** |
+| E-302 | C3 permission versus external obligation claims, plus RD-15 R-06 credible basis and actor eligibility; `verified=true` never completes | **Open** |
+| E-303 | Preserve P06 in provisional R-06 | **Open** |
+| E-304 | Keep C6 unpromoted unless an independent authored-account counterexample and affected-party need emerge | **Open** |
 | E-305 | C1 comparator, C4 recovery lens, C5 federation deferral | **Open** |
-| E-306 | Prevent Phase 005 synchronization, Phase 007 representation or security validation from becoming intrinsic concept behavior | **Open** |
+| E-306 | Prevent Phase 005 composition, Phase 007 presentation/mapping, and later empirical or security validation from being disguised as intrinsic concept actions | **Open** |
 | E-001–E-004 | Historical Phase 002 validation obligations | **Open** |
 | G01–G14 | Unresolved governance/validation items | **Open** |
-| S-40 | AWS backbone project-local security HOLD | **HOLD**; no AWS or IAM authorization |
+| S-40 | Historical aws-backbone HOLD; separate project-local authority is not waived | **HOLD**; no AWS or IAM authorization |
 
 ## Adversarial scenarios prepared for future independent testing
 
@@ -50,10 +53,14 @@ sources:
 6. A scope is authorized then materially changed: permission cannot be inherited; C3's local authority `basis` is not an R-06 evidence basis.
 7. P03 recovery after reviewer silence: missing review remains unknown; no timeout or retry mechanism is invented.
 8. P01 inquiry exists without challenge; P05 challenge exists only against an existing ground: distinguish observable purposes without presuming separate concepts.
-9. C1 generic-case proposal reuses R-06 fields but cannot preserve revision-qualified, independently credible basis: do not declare collapse without RD-15 survival evidence.
+9. C1 generic-case proposal reuses R-06 fields but cannot preserve revision-qualified, independently credible basis: do not declare collapse without independently challenged generic-case semantics and applicable RD-15 evidence.
 10. An R-06 assertion is completed, incomplete, failed or unknown: an assertion is not current substantiation; actor eligibility remains unresolved.
 
 These are abstract falsification cases, **not completed tests, empirical evidence, or modularity decisions**.
+
+## Additional open validation obligations
+
+Multi-revision applicability, obligation policy, evidence access and retention, privacy, independent reviewer validation, timeout/recovery choices, accessibility and empirical affected-party need remain open. Neither this ledger nor a review PASS discharges them. On main, Phase 003-F's header and PR #2 draft/unmerged statements, Phase 003-A and Phase 001 exit history, and Phase 001/002 indexes contain historical navigation drift. PR #3 addresses some navigation separately; no assumption is made that its unmerged changes exist on main.
 
 ## Integration discipline
 
