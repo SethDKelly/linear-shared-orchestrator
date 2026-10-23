@@ -46,13 +46,13 @@ C1 generic case remains a **non-promoted comparator** under RD-14/E-301/E-305; n
 | Element(s) from canonical owner | Kind | Preliminary owner / seam | Open challenge |
 |---|---|---|---|
 | Inquiry identity, current revision, inquiry question, grounds and their applicability, challenges, answer proposals, historical record | State / inputs / history | C2 **I**; ground source **U** | P01/P05 separability; revision-qualified ground credibility |
-| OpenInquiry | Action / existence guard | C2 **I** | Creation does not imply settled ground |
-| OfferGround | Action / proposed ground input | C2 **I**; external ground origin **U** | Ground authority/credibility is not established by offering |
-| ChallengeGround | Action / contested-ground effect | C2 **I** | Challenge must remain visible |
-| AddressChallenge | Action / resolution attempt | C2 **I** | No silent challenge erasure |
-| RebaseInquiry | Action / new revision and applicability effect | C2 **I** | New revision invalidates inherited applicability |
-| ProposeAnswer | Action / unsettled answer | C2 **I** | Answer does not authorize or prove execution |
-| InspectInquiry | Query / result | C2 **I** | Expose unresolved challenges and revision context |
+| OpenInquiry(question, revision) | Action: creates an unsettled inquiry; no pre-existing inquiry required | C2 **I** | Creation does not imply settled ground |
+| OfferGround(inquiry, ground, claimedRevision) | Action: existing inquiry; add contestable applicability assertion, not truth | C2 **I**; external ground origin **U** | Ground authority/credibility is not established by offering |
+| ChallengeGround(inquiry, ground, reason) | Action: existing inquiry and ground; preserve objection | C2 **I** | Challenge must remain visible |
+| AddressChallenge(inquiry, challenge, disposition, rationale) | Action: existing inquiry/challenge; attributed disposition without erasure | C2 **I** | No silent challenge erasure |
+| RebaseInquiry(inquiry, newRevision) | Action: existing inquiry; change revision and invalidate inherited applicability | C2 **I** | New revision invalidates inherited applicability |
+| ProposeAnswer(inquiry, claim, citedGrounds) | Action: existing inquiry; provisional revision-qualified claim, not permission or proof | C2 **I** | Answer does not authorize or prove execution |
+| InspectInquiry(inquiry) | Query: existing inquiry; expose question/revision/grounds/challenges/answer applicability | C2 **I** | Expose unresolved challenges and revision context |
 | Contested ground never silently settled; history preserved; answer not permission or completion | Invariants | C2 **I**; C3/R-06 **S** only if application synchronizes | No cross-concept authority implied |
 
 ## Element inventory: C3 scoped authorization
@@ -60,11 +60,11 @@ C1 generic case remains a **non-promoted comparator** under RD-14/E-301/E-305; n
 | Element(s) from canonical owner | Kind | Preliminary owner / seam | Open challenge |
 |---|---|---|---|
 | DecisionScope, Actor, Authorization, ObligationClaim, EvidenceClaim; revision and permission applicability | State / abstract inputs | C3 permission **I**; obligation/evidence claims **U / S** | Claims are not an intrinsic obligation lifecycle |
-| ConsiderScope | Action / scope consideration | C3 **I** | Consideration is not permission |
-| Withhold | Action / no permission effect | C3 **I** | Favorable review does not override withholding |
-| Authorize | Action / project-local authority predicate guard | C3 **I** | Actor eligibility and scope must not be inferred from reviewer PASS |
-| Withdraw | Action / revoke permission effect | C3 **I** | Changed scope loses inherited applicability |
-| InspectPermission | Query / result | C3 **I** | Silence, issue status and narrative are not permission |
+| ConsiderScope(scope, obligations) | Action: present scope and external obligation assertions; no permission | C3 **I** | Consideration is not permission |
+| Withhold(scope, actor, rationale) | Action: record explicit withheld permission; no favorable-review override | C3 **I** | Favorable review does not override withholding |
+| Authorize(scope, actor, basis) | Action: project-local authority predicate required; explicit actor-attributed permission for exact scope | C3 **I** | Actor eligibility and scope must not be inferred from reviewer PASS |
+| Withdraw(scope, actor, authorization) | Action: applicable permission and authority guard; revoke/supersede permission | C3 **I** | Changed scope loses inherited applicability |
+| InspectPermission(scope) | Query: expose current explicit permission, scope/actor and unresolved external obligation assertions | C3 **I** | Silence, issue status and narrative are not permission |
 | Permission requires explicit authority; scope changes invalidate inherited permission; S-40 HOLD | Invariants / external authority | C3 **I**; external security authority **U** | No AWS authorization; no obligation/receipt substitution |
 
 ## Element inventory: R-06 work outcome accountability
@@ -72,16 +72,16 @@ C1 generic case remains a **non-promoted comparator** under RD-14/E-301/E-305; n
 | Element(s) from canonical owner | Kind | Preliminary owner / seam | Open challenge |
 |---|---|---|---|
 | Work request, subject revision, acknowledgment, attempt, evaluation, outcome assertion, supporting basis, substantiation, challenges and historical record | State / abstract inputs / history | R-06 **I**; basis source and actor eligibility **U** | RD-15: basis independently credible and attributable? |
-| RequestWork | Action / request existence guard | R-06 **I** | No attempt or completion inferred |
-| AcknowledgeRequest | Action | R-06 **I** | Acknowledgment is not attempt |
-| RecordAttempt | Action | R-06 **I** | Attempt is not outcome |
-| RecordAssessment | Action | R-06 **I** | Favorable evaluation is not completion |
-| AssertOutcome | Action | R-06 **I** | Assertion is not substantiation |
-| InvalidateBasis | Action / remove dependent current substantiation; retain historical assertion | R-06 **I**; basis credibility **U** | A challenged, withdrawn or inapplicable basis cannot keep current substantiation |
-| ChallengeOutcome | Action / contestation | R-06 **I** | Preserve unresolved disqualifying challenge |
-| ReidentifyWork | Action / new revision; preserve history and drop inherited basis/claim applicability | R-06 **I** | New revision cannot inherit substantiation even if described as immaterial |
-| SubstantiateOutcome | Action / same-revision attributable basis and no unresolved disqualifying challenge guard | R-06 **I**; basis credibility **U** | `verified=true` is not proof |
-| InspectOutcome | Query / result | R-06 **I** | Expose requested, acknowledged, attempted, assessed, claimed, substantiated, disputed and invalidated; missing is unknown |
+| RequestWork(unit, revision, actor) | Action: establishes bounded request; no request-existence guard specified; not progress | R-06 **I** | No attempt or completion inferred |
+| AcknowledgeRequest(unit, revision, actor) | Action: request must exist; record acknowledgment only | R-06 **I** | Acknowledgment is not attempt |
+| RecordAttempt(unit, revision, actor, reportedResult) | Action: request must exist; record attributed attempt and reported result **including failure or unknown**; acknowledgment not required | R-06 **I** | Attempt is not outcome |
+| RecordAssessment(unit, revision, actor, assessmentClaim) | Action: record revision-attributed assessment; not actual completion | R-06 **I** | Favorable evaluation is not completion |
+| AssertOutcome(unit, revision, actor, outcome, bases) | Action: record actor-attributed assertion and cited bases; not substantiated | R-06 **I** | Assertion is not substantiation |
+| InvalidateBasis(unit, basis, reason) | Action: remove dependent current substantiation; retain historical assertion | R-06 **I**; basis credibility **U** | A challenged, withdrawn or inapplicable basis cannot keep current substantiation |
+| ChallengeOutcome(unit, assertion, reason) | Action: preserve contestation of specified assertion | R-06 **I** | Preserve unresolved disqualifying challenge |
+| ReidentifyWork(unit, newRevision) | Action: preserve history; drop prior basis/claim applicability | R-06 **I** | New revision cannot inherit substantiation even if described as immaterial |
+| SubstantiateOutcome(unit, assertion, applicableBasis) | Action: attributable assertion, current-revision applicable basis, no unresolved disqualifying challenge; substantiate only, never authorize | R-06 **I**; basis credibility **U** | `verified=true` is not proof |
+| InspectOutcome(unit) | Query: expose eight distinct fact classes; missing = unknown | R-06 **I** | Expose requested, acknowledged, attempted, assessed, claimed, substantiated, disputed and invalidated; missing is unknown |
 | Acknowledgment/attempt/evaluation/assertion/substantiation are distinct; revision freshness; contradictions contested; S-40 HOLD | Invariants / history | R-06 **I** | New revision loses inherited applicability even if called immaterial |
 
 ## Cross-boundary seam classification (preliminary)
@@ -117,7 +117,7 @@ The following are the **specified** guards and effects, not inferred implementat
 
 For C3, `Authorize` is guarded by an unspecified project-local authority predicate and exact scope; `Withdraw` requires applicable prior permission and the authority guard. `ConsiderScope` creates no permission, `Withhold` records withheld permission, and `InspectPermission` reports only explicit current permission and unresolved external obligation assertions. There is **no intrinsic obligation lifecycle**, provider eligibility algorithm, shared policy engine, or implied authorization from review PASS, favorable outcome or silence. Scope change loses inherited permission; S-40 remains HOLD.
 
-For R-06, `AcknowledgeRequest` and `RecordAttempt` require an existing request, while either acknowledgment or attempt may exist without the other. `RecordAssessment` is revision-attributed evaluation without completion. `AssertOutcome` records actor-attributed claim and cited bases without automatic substantiation. `ChallengeOutcome` preserves contestation. `SubstantiateOutcome` requires an attributable assertion, current-revision applicable basis and no unresolved disqualifying challenge; it does not authorize. `InvalidateBasis` removes dependent current substantiation and preserves history. `ReidentifyWork` drops inherited basis/claim applicability for the new revision. `InspectOutcome` distinguishes requested, acknowledged, attempted, assessed, claimed, substantiated, disputed and invalidated, with **missing = unknown**. No standalone `OfferBasis`, `AddressOutcomeChallenge`, `AcknowledgeWork` or `RecordEvaluation` action exists in the canonical owner. Independent basis credibility and actor eligibility are **unresolved RD-15 inputs**, not satisfied guards.
+For R-06, initial state contains no requested work. `RequestWork` creates the request without a pre-existing-request guard; `AcknowledgeRequest` and `RecordAttempt(unit, revision, actor, reportedResult)` require an existing request, while either acknowledgment or attempt may exist without the other. `reportedResult` may explicitly be failure or unknown; an attempt is never completion. Failure, partial outcome, unknown, nonresponse, timeout and quota do not create a substantiated result. No automatic closure, timeout, retry or workflow is specified. `RecordAssessment` is revision-attributed evaluation without completion. `AssertOutcome` records actor-attributed claim and cited bases without automatic substantiation. `ChallengeOutcome` preserves contestation. `SubstantiateOutcome` requires an attributable assertion, current-revision applicable basis and no unresolved disqualifying challenge; it does not authorize. `InvalidateBasis` removes dependent current substantiation and preserves history. `ReidentifyWork` drops inherited basis/claim applicability for the new revision. `InspectOutcome` distinguishes requested, acknowledged, attempted, assessed, claimed, substantiated, disputed and invalidated, with **missing = unknown**. No standalone `OfferBasis`, `AddressOutcomeChallenge`, `AcknowledgeWork` or `RecordEvaluation` action exists in the canonical owner. Independent basis credibility and actor eligibility are **unresolved RD-15 inputs**, not satisfied guards.
 
 ## Falsifying counterexamples and residual ownership (hypotheses, not verdicts)
 
