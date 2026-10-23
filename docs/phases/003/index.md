@@ -20,7 +20,7 @@ Phase 003 converts retained Phase 002 candidates into precise, representation-in
 - [003-C R-06 completion behavior return](003-c-r06-completion-behavior-return.md) — bounded abstract behavior; independent PASS at 75e3f41.
 - [003-D R-06 adversarial return](003-d-r06-completion-adversarial-return.md) — separate counterexamples; independent PASS at 75e3f41.
 - [003-E corrective R-06 reconciliation](003-e-r06-corrective-reconciliation.md) — independent PASS at e313539; original P06 HOLD lifted; 003-F preparation admitted.
-- [003-F independent exit assessment and Phase 004 handoff](003-f-independent-exit-assessment.md) — independent NOT READY TO EXIT at 107500c; canonical concept owners missing and navigation reconciliation required; no sponsor exit acceptance.
+- [003-F independent exit assessment and Phase 004 handoff](003-f-independent-exit-assessment.md) — independent NOT READY TO EXIT at 107500c; sponsor-authorized provisional canonical owners and status reconciliation now under fresh review; no sponsor exit acceptance.
 
 ## Refinement status
 
@@ -35,3 +35,11 @@ Project-specific substantive subphases remain dynamically derived by `003-A`; Ba
 - [All phases](../)
 - [Canonical knowledge](../../canonical/)
 
+
+## Current specification owners
+
+- [C2 living inquiry](../../canonical/concepts/c2-living-inquiry.md)
+- [C3 scoped authorization](../../canonical/concepts/c3-scoped-authorization.md)
+- [R-06 work outcome accountability](../../canonical/concepts/r06-work-outcome-accountability.md)
+
+These owners are **provisional**, not final concept acceptance. Phase 004 may revise, split, merge, generalize or reject them. The historical 003-E HOLD was lifted by the independently passed corrective retry; 003-F exit remains **NOT READY TO EXIT pending fresh independent review** and sponsor decision.
