@@ -22,7 +22,7 @@ sources:
 |---|---|---|
 | Root and canonical indexes | Phase 003 acceptance/merge navigation was corrected in PR #3; not yet merged to main | Compare branch tips before any eventual reconciliation; do not overwrite newer canonical navigation |
 | Phase 003-F historical record | Prior review identified stale “PR #2 Draft and unmerged” statements within 003-F | Mark as historical snapshot or add current-status note on active Phase 004 branch after exact-head review; do not rewrite historical verdict |
-| Phase 004 index | Cursor 004-B PASS at `50c6938` not yet reflected in current index | Update after review reconciliation; do not confuse admission to 004-C with Phase 004 exit |
+| Phase 004 index | Cursor 004-B **PASS WITH CARRY-FORWARD** at `50c6938` is absent from the **main-branch** Phase 004 index; PR #3's Phase 004 index at `77a2ffb` records it and the 004-C PASS WITH CARRY-FORWARD at `fba7b20` | Update after review reconciliation; do not confuse admission to 004-C with Phase 004 exit |
 | OKF frontmatter | Existing C2/C3/R-06 owner paths and 004-B source links were reported resolving | Recheck links and frontmatter at the exact target head; no claim of exhaustive scan |
 | Canonical owner identity | C2, C3, R-06 are provisional, C1 comparator, C4 lens, C5 deferred, C6 unpromoted | Flag duplicate owner files or status drift; no promotion |
 | Review evidence | Cursor 004-A and 004-B verdicts recorded on PR #3 | Preserve exact reviewed SHA and separate sponsor authority |
@@ -31,7 +31,7 @@ sources:
 
 | Obligation | Next evidence / test | Status |
 |---|---|---|
-| RD-15 | R-06 basis credibility and actor eligibility survival. PR #3's later independent 004-C review found an abstract survival relation and no Phase 002-C return; this is not a main-branch or sponsor-exit decision | **Open concrete criteria**; PR #3 has independent 004-C PASS WITH CARRY-FORWARD, not merged or sponsor-exited |
+| RD-15 | R-06 basis credibility and actor eligibility survival. PR #3's independent 004-C review at **`fba7b20`** found an abstract survival relation and no Phase 002-C return; later PR #3 documentation heads require their own exact-head review, and this is not a main-branch or sponsor-exit decision | **Open concrete criteria**; PR #3 has independent 004-C PASS WITH CARRY-FORWARD, not merged or sponsor-exited |
 | RD-14 | C1 generic-case collapse versus C2/R-06; a collapse reopens Phase 002-C. The RD-15-first order is PR #3's workstream dependency, not the accepted obligation itself | **Open**, not decided |
 | E-301 | RD-14: test C2 and R-06 against the C1 generic case | **Open** |
 | E-302 | C3 permission versus external obligation claims, plus RD-15 R-06 credible basis and actor eligibility; `verified=true` never completes | **Open** |
@@ -49,11 +49,11 @@ sources:
 2. An attempt reports failure, unknown, partial result, timeout, quota or nonresponse: none automatically establishes completion.
 3. An R-06 completed claim cites a C2 ground that is contested or stale after revision: `SubstantiateOutcome` must not treat the ground as self-verifying.
 4. A claim is substantiated and its basis invalidated: current substantiation disappears; history persists.
-5. A C3 sponsor withholds permission after favorable review: favorable review cannot authorize; project-local S-40 still blocks AWS.
+5. A C3 sponsor withholds permission after favorable review: favorable review cannot authorize. Separately, project-local authorization is not established, and the historical S-40 aws-backbone HOLD remains in force; neither permits AWS.
 6. A scope is authorized then materially changed: permission cannot be inherited; C3's local authority `basis` is not an R-06 evidence basis.
 7. P03 recovery after reviewer silence: missing review remains unknown; no timeout or retry mechanism is invented.
-8. P01 inquiry exists without challenge; P05 challenge exists only against an existing ground: distinguish observable purposes without presuming separate concepts.
-9. C1 generic-case proposal reuses R-06 fields but cannot preserve revision-qualified, independently credible basis: do not declare collapse without independently challenged generic-case semantics and applicable RD-15 evidence.
+8. P01 inquiry exists without a challenge; P05 independently challengeable findings may be exercised against an existing C2 ground through `ChallengeGround` or against an R-06 outcome assertion through `ChallengeOutcome`. Distinguish observable purposes without assuming that P05 requires a C2 ground or deserves a separate concept.
+9. C1 generic-case proposal reuses R-06 fields but cannot preserve revision-qualified, attributable and challengeable support: test generic-case semantics directly against C2 and R-06. An independently demonstrated RD-14 identity collapse reopens Phase 002-C; do not make prior RD-15 evidence an extra prerequisite for recognizing collapse.
 10. An R-06 assertion is completed, incomplete, failed or unknown: an assertion is not current substantiation; actor eligibility remains unresolved.
 
 These are abstract falsification cases, **not completed tests, empirical evidence, or modularity decisions**.
