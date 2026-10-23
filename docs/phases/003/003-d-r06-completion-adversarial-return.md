@@ -16,7 +16,7 @@ sources:
 ---
 # 003-D corrective return — R-06 adversarial challenge
 
-**Status: SEPARATE ADVERSARIAL REVIEW PASS at `75e3f41` ([review](https://github.com/SethDKelly/linear-shared-orchestrator/pull/2#issuecomment-6356088541)); corrective 003-E subsequently PASS at `e313539`. Phase 003-F exit NOT READY pending canonical ownership and navigation remediation.** This record challenges the 003-B identity and P06, without treating any parallel 003-C specification as authoritative evidence or clearance.
+**Status: INDEPENDENT PASS at 75e3f41; corrective 003-E independently PASS at e313539. This record does not itself accept Phase 003 exit or authorize implementation.**
 
 ## Counterexamples and required properties
 | ID | Affected party / attempted falsification | Required semantic outcome |
