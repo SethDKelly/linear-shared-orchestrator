@@ -16,7 +16,7 @@ sources:
 ---
 # 003-A — Project specification start gate
 
-**Status: START-GATE PLAN DRAFT — independent review pending. Substantive specification not yet admitted.**
+**Status: INDEPENDENT START-GATE PASS at aa12c9a (2026-10-22); 003-B admitted. Substantive specification remains subject to individual review gates.**
 
 ## Entry decision and scope
 On 2026-10-22, the sponsor explicitly accepted Phase 002 **PASS WITH CARRY-FORWARD**. Its [exit record](../002/002-f-exit-assessment.md) and independently reviewed [convergence evidence](../002/002-e-bounded-convergence.md) admit this mandatory planning gate, not automatic acceptance of candidates, architecture, or implementation. [P01–P06](../../canonical/purpose/purpose-model.md) remain provisional purpose authority. Phase 002's E-001–E-004 reopen triggers and G01–G14 remain active.
@@ -56,4 +56,4 @@ For each viable candidate require: (1) distinct concept purpose and archetypal o
 Keep speculative OP alternatives and rejected/refined identities in `docs/phases/003/`. Create `docs/canonical/concepts/` concept owners only after 003-E establishes stable, independently meaningful semantic identity; link purpose authority and phase evidence without copying it. Update canonical and phase indexes for any actual promotion. Phase 004 must receive candidate identities, purpose/OP/state/action specifications, evidence of counterexample tests, unresolved factoring, specificity, completeness, independence and genericity risks, plus explicit carry-forwards. Sponsor acceptance of Phase 003 exit remains separate.
 
 ## 003-A gate recommendation
-**READY TO BEGIN PROJECT-SPECIFIC 003-B–F PLANNED WORK, conditional on independent exact-head start-gate review.** This gate defines bounded work, not proven candidate identity or Phase 003 exit. If independent review finds a material planning gap, remediate before 003-B begins. Implementation remains NOT READY / NOT STARTED / NOT AUTHORIZED. PR #2 remains Draft and unmerged.
+**READY TO BEGIN 003-B — independent exact-head start-gate PASS** ([Cursor review](https://github.com/SethDKelly/linear-shared-orchestrator/pull/2#issuecomment-6355478560)). This gate defines bounded work, not proven candidate identity or Phase 003 exit. If independent review finds a material planning gap, remediate before 003-B begins. Implementation remains NOT READY / NOT STARTED / NOT AUTHORIZED. PR #2 remains Draft and unmerged.
