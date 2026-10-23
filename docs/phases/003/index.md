@@ -11,7 +11,7 @@ Phase 003 converts retained Phase 002 candidates into precise, representation-in
 
 ## Project-specific start gate
 
-- [003-A project specification start gate](003-a-project-start-gate.md) — planning draft; independent review pending. Phase 002 sponsor accepted on 2026-10-22.
+- [003-A project specification start gate](003-a-project-start-gate.md) — independent PASS at aa12c9a; 003-B admitted. Phase 002 sponsor accepted on 2026-10-22.
 
 ## Refinement status
 
