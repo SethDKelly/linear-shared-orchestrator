@@ -20,7 +20,7 @@ Phase 003 converts retained Phase 002 candidates into precise, representation-in
 - [003-C R-06 completion behavior return](003-c-r06-completion-behavior-return.md) — bounded abstract behavior; independent PASS at 75e3f41.
 - [003-D R-06 adversarial return](003-d-r06-completion-adversarial-return.md) — separate counterexamples; independent PASS at 75e3f41.
 - [003-E corrective R-06 reconciliation](003-e-r06-corrective-reconciliation.md) — independent PASS at e313539; original P06 HOLD lifted; 003-F preparation admitted.
-- [003-F independent exit assessment and Phase 004 handoff](003-f-independent-exit-assessment.md) — independent PASS WITH CARRY-FORWARD at a2439a9; sponsor accepted Phase 003 exit with documented carry-forwards on 2026-10-22. Phase 004 entry remains separately gated; PR #2 remains Draft and unmerged.
+- [003-F independent exit assessment and Phase 004 handoff](003-f-independent-exit-assessment.md) — independent PASS WITH CARRY-FORWARD at a2439a9; sponsor accepted Phase 003 exit with documented carry-forwards on 2026-10-22. Phase 004-A entry review is pending; PR #2 merged as `82b6a9f`.
 
 ## Refinement status
 
