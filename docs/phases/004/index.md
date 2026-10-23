@@ -11,7 +11,9 @@ Phase 004 audits and corrects the factoring of behavior into concepts so each re
 
 ## Project Phase 004 start gate
 
-- [004-A project start-gate preparation](004-a-project-start-gate.md) — sponsor-accepted Phase 003 baseline, modularity risk inventory, proposed B–F workstreams, and independent review entry criteria. **Prepared; review pending.**
+- [004-A project start-gate preparation](004-a-project-start-gate.md) — sponsor-accepted Phase 003 baseline, modularity risk inventory, proposed B–F workstreams, and independent review entry criteria. **Independent PASS WITH CARRY-FORWARD at `5f5b355`; 004-B inventory only admitted.**
+
+- [004-B purpose, element inventory and seam classification](004-b-element-inventory-and-seams.md) — bounded 004-A-authorized inventory; **independent 004-B review pending**, no 004-C admission.
 
 ## Refinement status
 
