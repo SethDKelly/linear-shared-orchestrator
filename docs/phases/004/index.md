@@ -13,9 +13,9 @@ Phase 004 audits and corrects the factoring of behavior into concepts so each re
 
 - [004-A project start-gate preparation](004-a-project-start-gate.md) — sponsor-accepted Phase 003 baseline, modularity risk inventory, proposed B–F workstreams, and independent review entry criteria. **Independent PASS WITH CARRY-FORWARD at `5f5b355`; 004-B inventory only admitted.**
 
-- [004-B purpose, element inventory and seam classification](004-b-element-inventory-and-seams.md) — bounded 004-A-authorized inventory; **independent 004-B PASS WITH CARRY-FORWARD at `50c6938`; 004-C bounded admission**, no 004-C admission.
+- [004-B purpose, element inventory and seam classification](004-b-element-inventory-and-seams.md) — bounded 004-A-authorized inventory; **independent 004-B PASS WITH CARRY-FORWARD at `50c6938`; bounded 004-C admitted.**
 
-- [004-C specificity, minimal completeness and RD-15 survival](004-c-specificity-rd15-survival.md) — bounded assessment prepared; independent review pending; RD-14 and 004-D remain closed.
+- [004-C specificity, minimal completeness and RD-15 survival](004-c-specificity-rd15-survival.md) — independent **004-C PASS WITH CARRY-FORWARD at `fba7b20`**; RD-15 abstract survival ruling permits 004-D *RD-14 comparison and alternatives only*. RD-14 remains open.
 
 ## Refinement status
 
