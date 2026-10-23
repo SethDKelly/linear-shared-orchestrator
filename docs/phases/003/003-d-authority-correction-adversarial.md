@@ -16,7 +16,7 @@ sources:
 ---
 # 003-D — Independent authority, correction and adversarial sufficiency
 
-**Status: INDEPENDENT CHALLENGE DRAFT — review pending; no adoption of 003-C semantics as authoritative.** This workstream challenges [003-B](003-b-candidate-identity-operational-principles.md) and Phase 001 P01–P06 independently. Any parallel 003-C text is a target for later 003-E reconciliation, not evidence used to excuse a defect here.
+**Status: INDEPENDENT PASS at 321bbf0; 003-E reconciliation admitted. No adoption of 003-C semantics as authoritative.** This workstream challenges [003-B](003-b-candidate-identity-operational-principles.md) and Phase 001 P01–P06 independently. Any parallel 003-C text is a target for later 003-E reconciliation, not evidence used to excuse a defect here.
 
 ## Challenge method
 For each candidate ask: which affected actor experiences the failure; which claimed user-visible behavior would prevent it; can the candidate still serve a coherent purpose without imported S-81/PR #1 receipts, policy engine or narrative presentation; what evidence would disqualify it? The scenarios are analytical counterfactuals, **not observed incidents, validated provider independence, accessibility tests, security assessment or sponsor approval**.
