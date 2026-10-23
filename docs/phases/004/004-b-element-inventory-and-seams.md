@@ -24,7 +24,7 @@ sources:
 
 ## Scope and recording discipline
 
-The [canonical purpose model](../../canonical/purpose/purpose-model.md) and [Phase 003-F handoff](../003/003-f-independent-exit-assessment.md) are the current inputs. The tables below enumerate named state, action, guard, query, output and invariants at the level currently visible in canonical owners. Each grouped row is an **index to the individual elements named in that row**, not evidence that each element has already been independently challenged. Missing intrinsic semantics must be recorded as **unknown**, not invented.
+The [canonical purpose model](../../canonical/purpose/purpose-model.md) and [Phase 003-F handoff](../003/003-f-independent-exit-assessment.md) are the current inputs. The tables below enumerate named state, action, guard, query, output and invariants at the level currently visible in canonical owners. State and invariant rows list named elements explicitly; action rows must retain canonical names, preconditions and effects. Where a canonical source does not specify an action-specific guard, this inventory records **no additional guard specified**, rather than inventing one. Missing intrinsic semantics must be recorded as **unknown**, not invented.
 
 Seam classes: **I** intrinsic to the current concept hypothesis; **S** potential Phase 005 synchronization; **X** extrinsic Phase 006 inclusion/dependence; **U** unresolved ownership. These are preliminary classifications for challenge, not authoritative modularity decisions.
 
@@ -73,22 +73,22 @@ C1 generic case remains a **non-promoted comparator** under RD-14/E-301/E-305; n
 |---|---|---|---|
 | Work request, subject revision, acknowledgment, attempt, evaluation, outcome assertion, supporting basis, substantiation, challenges and historical record | State / abstract inputs / history | R-06 **I**; basis source and actor eligibility **U** | RD-15: basis independently credible and attributable? |
 | RequestWork | Action / request existence guard | R-06 **I** | No attempt or completion inferred |
-| AcknowledgeWork | Action | R-06 **I** | Acknowledgment is not attempt |
+| AcknowledgeRequest | Action | R-06 **I** | Acknowledgment is not attempt |
 | RecordAttempt | Action | R-06 **I** | Attempt is not outcome |
-| RecordEvaluation | Action | R-06 **I** | Favorable evaluation is not completion |
+| RecordAssessment | Action | R-06 **I** | Favorable evaluation is not completion |
 | AssertOutcome | Action | R-06 **I** | Assertion is not substantiation |
-| OfferBasis | Action / supporting basis input | R-06 **I**; external basis source **U** | Basis credibility not presumed |
+| InvalidateBasis | Action / remove dependent current substantiation; retain historical assertion | R-06 **I**; basis credibility **U** | A challenged, withdrawn or inapplicable basis cannot keep current substantiation |
 | ChallengeOutcome | Action / contestation | R-06 **I** | Preserve unresolved disqualifying challenge |
-| AddressOutcomeChallenge | Action / challenge handling | R-06 **I** | No silent proof creation |
+| ReidentifyWork | Action / new revision; preserve history and drop inherited basis/claim applicability | R-06 **I** | New revision cannot inherit substantiation even if described as immaterial |
 | SubstantiateOutcome | Action / same-revision attributable basis and no unresolved disqualifying challenge guard | R-06 **I**; basis credibility **U** | `verified=true` is not proof |
-| InspectOutcome | Query / result | R-06 **I** | Preserve six independent facts and historical challenge |
+| InspectOutcome | Query / result | R-06 **I** | Expose requested, acknowledged, attempted, assessed, claimed, substantiated, disputed and invalidated; missing is unknown |
 | Acknowledgment/attempt/evaluation/assertion/substantiation are distinct; revision freshness; contradictions contested; S-40 HOLD | Invariants / history | R-06 **I** | New revision loses inherited applicability even if called immaterial |
 
 ## Cross-boundary seam classification (preliminary)
 
 | Interaction pressure | Class | Rationale / next challenge |
 |---|---|---|
-| C2 grounds as an abstract input to R-06 outcome basis | **U / S** | Ground credibility is not automatically inherited; determine whether this is only a Phase 005 synchronization or an unowned intrinsic basis rule in RD-15 |
+| C2 grounds as an abstract input to R-06 outcome basis | **U / S** | Ground credibility is not automatically inherited; inspect `AssertOutcome` cited bases, `SubstantiateOutcome` applicability and `InvalidateBasis` withdrawal. Determine whether Phase 005 synchronization suffices or RD-15 exposes an unowned intrinsic basis rule |
 | C3 permission versus R-06 attempt/completion | **S** | Permission and accountable outcome remain different facts; a possible Phase 005 interaction must not imply either from the other |
 | C3 obligation claims versus authorization | **U / S** | C3 has no obligation lifecycle; E-302 must not be confused with RD-15 |
 | P03 reviewer recovery across C2 challenge, C3 withdrawal and R-06 correction | **U / S** | Recovery lens is not automatically a standalone concept; trace residual uncovered P03 |
@@ -110,3 +110,21 @@ C1 generic case remains a **non-promoted comparator** under RD-14/E-301/E-305; n
 ## Exit conditions for this bounded 004-B record
 
 Before any 004-C work: verify every named element against the full canonical sources and record any omitted guard/effect explicitly; independently challenge seam classifications and P01/P05/P03 coverage; preserve RD-14 open pending RD-15; obtain **fresh exact-head independent review** and reconcile its verdict. A PASS on this inventory is not a completeness or modularity PASS. G01–G14, E-001–E-004 and E-301–E-306 remain open. S-40 HOLD is unchanged. No implementation or AWS activity is authorized.
+
+## Canonical guard, effect and absence audit
+
+The following are the **specified** guards and effects, not inferred implementation preconditions. For C2, actions referencing an inquiry or ground require the referenced fact to exist; otherwise no stronger actor-eligibility, independent-credibility, timeout, or automatic-closure guard is specified. `OpenInquiry` creates an unsettled inquiry; `OfferGround` adds contestable applicability, `ChallengeGround` records a preserved objection, `AddressChallenge` records attributed disposition without erasure, `RebaseInquiry` changes revision and drops inherited applicability, `ProposeAnswer` records a provisional revision-qualified claim, and `InspectInquiry` exposes unresolved challenges and applicability. Independent ground credibility is **unknown**, not implicitly checked.
+
+For C3, `Authorize` is guarded by an unspecified project-local authority predicate and exact scope; `Withdraw` requires applicable prior permission and the authority guard. `ConsiderScope` creates no permission, `Withhold` records withheld permission, and `InspectPermission` reports only explicit current permission and unresolved external obligation assertions. There is **no intrinsic obligation lifecycle**, provider eligibility algorithm, shared policy engine, or implied authorization from review PASS, favorable outcome or silence. Scope change loses inherited permission; S-40 remains HOLD.
+
+For R-06, `AcknowledgeRequest` and `RecordAttempt` require an existing request, while either acknowledgment or attempt may exist without the other. `RecordAssessment` is revision-attributed evaluation without completion. `AssertOutcome` records actor-attributed claim and cited bases without automatic substantiation. `ChallengeOutcome` preserves contestation. `SubstantiateOutcome` requires an attributable assertion, current-revision applicable basis and no unresolved disqualifying challenge; it does not authorize. `InvalidateBasis` removes dependent current substantiation and preserves history. `ReidentifyWork` drops inherited basis/claim applicability for the new revision. `InspectOutcome` distinguishes requested, acknowledged, attempted, assessed, claimed, substantiated, disputed and invalidated, with **missing = unknown**. No standalone `OfferBasis`, `AddressOutcomeChallenge`, `AcknowledgeWork` or `RecordEvaluation` action exists in the canonical owner. Independent basis credibility and actor eligibility are **unresolved RD-15 inputs**, not satisfied guards.
+
+## Falsifying counterexamples and residual ownership (hypotheses, not verdicts)
+
+- **P01 without P05:** A maintainer opens an inquiry, offers grounds and inspects an unsettled answer without anyone challenging a ground. This supports an independently observable P01 inquiry path but does not establish that P05 correction is separable as a concept.
+- **P05 without a new P01 inquiry:** A reviewer challenges an already-offered ground after a change revision; the earlier inquiry remains open, but the challenge and rebase require a pre-existing inquiry identity. This is a counterexample to treating P05 as a wholly standalone lifecycle; the question of whether correction belongs intrinsically in C2 remains open.
+- **P03 reviewer recovery after silence:** A reviewer does not respond to a stale ground; the maintainer inspects the inquiry and sees **unknown**, not PASS. A later challenge can be preserved and addressed. C2 supplies these intrinsic actions, but any product-level reminder, retry or recovery workflow is not specified and must not be invented as C4 behavior.
+- **P03 after authorization withdrawal:** A scope was explicitly authorized, then withdrawn. `InspectPermission` exposes no current permission and the withdrawal history. This recovers a truthful view, but not a universal reviewer-recovery mechanism. C4 stays a lens; residual cross-concept coordination is **U / S**.
+- **P03 after basis invalidation:** R-06 had a supported claim, then `InvalidateBasis` removes current substantiation while history remains visible. `InspectOutcome` shows invalidated/disputed status; a new revision does not inherit proof. This is local correction, not a new P03 owner.
+
+These counterexamples are **reasoned abstract tests**, not empirical user validation. They leave P01/P05 and P03 factoring open for Phase 004-C/D and preserve E-001/G01–G14.
