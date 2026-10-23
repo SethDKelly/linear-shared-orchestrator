@@ -16,7 +16,7 @@ sources:
 ---
 # 003-C corrective return — R-06 abstract completion behavior
 
-**Status: BOUNDED SPECIFICATION independently PASS at `75e3f41` ([review](https://github.com/SethDKelly/linear-shared-orchestrator/pull/2#issuecomment-6356088541)); corrective 003-E subsequently PASS at `e313539`. Phase 003-F exit NOT READY pending canonical ownership and navigation remediation.** This record owns only R-06 behavior. It does not revise C2/C3, revive C6, or choose an execution workflow.
+**Status: INDEPENDENT PASS at 75e3f41; corrective 003-E independently PASS at e313539. Historical pre-review HOLD language below is superseded by those verdicts; Phase 003 exit remains unaccepted.**
 
 ## Identity, purpose and domains
 **R-06 — Work outcome accountability:** A contributor or downstream receiver can distinguish what has been requested, acknowledged, attempted, evaluated, claimed as an outcome, and substantiated as completed for a bounded unit of work (P06). P01/P03 protect freshness and unknown results; P02/P04 protect sponsor and project-local authority.
