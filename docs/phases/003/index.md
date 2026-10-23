@@ -16,7 +16,9 @@ Phase 003 converts retained Phase 002 candidates into precise, representation-in
 - [003-C abstract behavior specifications](003-c-abstract-behavior-specifications.md) — provisional behavior, minimal state and falsification; independent PASS at 321bbf0.
 - [003-D authority, correction and adversarial sufficiency](003-d-authority-correction-adversarial.md) — separate adversarial challenge; independent PASS at 321bbf0.
 - [003-E behavioral reconciliation and concept ownership](003-e-behavioral-reconciliation.md) — independent HOLD at fa26514 due to P06 behavioral gap; 003-F blocked.
-- [003-B corrective completion identity return](003-b-completion-identity-return.md) — R-06 work-outcome-accountability hypothesis; independent review pending.
+- [003-B corrective completion identity return](003-b-completion-identity-return.md) — R-06 work-outcome-accountability hypothesis; independent PASS at af3b5c1, corrective 003-C/D admitted.
+- [003-C R-06 completion behavior return](003-c-r06-completion-behavior-return.md) — bounded abstract behavior; independent review pending.
+- [003-D R-06 adversarial return](003-d-r06-completion-adversarial-return.md) — separate counterexamples; independent review pending.
 
 ## Refinement status
 
