@@ -17,7 +17,7 @@ Phase 004 audits and corrects the factoring of behavior into concepts so each re
 
 - [004-C specificity, minimal completeness and RD-15 survival](004-c-specificity-rd15-survival.md) — independent **004-C PASS WITH CARRY-FORWARD at `fba7b20`**; RD-15 abstract survival ruling permits 004-D *RD-14 comparison and alternatives only*. RD-14 remains open.
 
-- [004-D RD-14 generic-case comparison and boundary alternatives](004-d-rd14-generic-case-boundary-alternatives.md) — **review candidate only**, with historical C1 civic-actions control kept separate from a hypothetical generic-case algebra. Initial independent Cursor HOLD and Codex finding are being remediated; no 004-D PASS, RD-14 closure, 004-E admission, or Phase 004 exit.
+- [004-D RD-14 generic-case comparison and boundary alternatives](004-d-rd14-generic-case-boundary-alternatives.md) — **review candidate only**, with historical C1 civic-actions control kept separate from a hypothetical generic-case algebra. Initial Cursor HOLD was lifted by independent **PASS WITH CARRY-FORWARD at `231af23`**; Codex code review found no major issues at that head but is not a semantic verdict. The stronger B1 parameterized collapse model added after that review is **awaiting new exact-head review**; no RD-14 closure, final 004-D boundary decision, 004-E admission, or Phase 004 exit.
 
 ## Refinement status
 
