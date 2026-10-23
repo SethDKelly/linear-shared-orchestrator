@@ -18,7 +18,7 @@ Phase 001 [sponsor-accepted exit](../001/001-f-exit.md) is PASS WITH CARRY-FORWA
 - [002-C alternative decompositions](002-c-alternative-decompositions.md) — independent divergent handoff PASS.
 - [002-D cross-context challenge](002-d-cross-context-challenge.md) — independent divergent handoff PASS.
 - [002-E bounded convergence](002-e-bounded-convergence.md) — independent PASS; provisional hypotheses, not canonical concepts.
-- [002-F exit assessment and Phase 003 handoff](002-f-exit-assessment.md) — proposed PASS WITH CARRY-FORWARD; independent exit review and sponsor acceptance pending.
+- [002-F exit assessment and Phase 003 handoff](002-f-exit-assessment.md) — sponsor-accepted PASS WITH CARRY-FORWARD (2026-10-22); Phase 003-A admitted.
 
 ## Refinement status
 
