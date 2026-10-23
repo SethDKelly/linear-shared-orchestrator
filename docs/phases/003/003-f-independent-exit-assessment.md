@@ -19,7 +19,7 @@ sources:
 ---
 # 003-F — Independent exit assessment and Phase 004 handoff
 
-**Status: EXIT ASSESSMENT DRAFT — independent exact-head review pending; sponsor acceptance NOT REQUESTED OR GIVEN. Phase 004 NOT ADMITTED.** No canonical concept promotion, implementation or PR merge is authorized.
+**Status: INDEPENDENT NOT READY TO EXIT at 107500c; sponsor-authorized provisional canonical ownership and navigation remediation submitted for fresh exact-head review. Sponsor exit acceptance NOT GIVEN. Phase 004 NOT ADMITTED.** No canonical concept promotion, implementation or PR merge is authorized.
 
 ## Gate evidence and planned-work disposition
 The project-specific [003-A plan](003-a-project-start-gate.md) admitted 003-B identity, parallel 003-C behavior and 003-D adversarial challenge, 003-E reconciliation and 003-F exit. Original 003-B passed at `8384ddc`; original 003-C and 003-D passed independently at `321bbf0`; original 003-E was **HOLD** at `fa26514` because P06 completion had no behavioral owner. The bounded corrective [003-B R-06 identity](003-b-completion-identity-return.md) passed at `af3b5c1`, and corrective [003-C](003-c-r06-completion-behavior-return.md) and [003-D](003-d-r06-completion-adversarial-return.md) passed separately at `75e3f41`. Corrective [003-E](003-e-r06-corrective-reconciliation.md) passed at `e313539` ([review](https://github.com/SethDKelly/linear-shared-orchestrator/pull/2#issuecomment-6356125817)), **lifting only the original P06 undefined-behavior HOLD and admitting this 003-F preparation**. These are independent gate verdicts, not sponsor exit acceptance.
@@ -35,7 +35,7 @@ The project-specific [003-A plan](003-a-project-start-gate.md) admitted 003-B id
 | C6 change narrative | Standalone identity **not retained** | P06 explanation is not outcome; [003-E](003-e-behavioral-reconciliation.md) | Phase 007 representation; reopen only with independent authored-account evidence |
 | R-06 work outcome accountability | New provisional P06 behavior owner; **not canonical** | P06: [identity](003-b-completion-identity-return.md), [state/actions](003-c-r06-completion-behavior-return.md), [adversarial](003-d-r06-completion-adversarial-return.md), [reconciliation](003-e-r06-corrective-reconciliation.md) | RD-14 generic-case collapse, RD-15 basis credibility, actor eligibility |
 
-**No `docs/canonical/concepts/` owner is created by this preparation.** Phase 003 definition expects stable concept identities to have canonical owners; whether the present *provisional phase-local specification entry points* meet the exit template's canonical-ownership and discoverability requirement is an **explicit independent review question**, not a presumed PASS. If canonical ownership is mandatory before exit, return for sponsor-authorized knowledge reconciliation rather than silently promote.
+**Sponsor-authorized provisional canonical owners now exist:** [C2](../../canonical/concepts/c2-living-inquiry.md), [C3](../../canonical/concepts/c3-scoped-authorization.md) and [R-06](../../canonical/concepts/r06-work-outcome-accountability.md). They are current specification entry points, not final factoring decisions. Phase 004 may revise, split, merge, generalize or reject each; independent exit re-review must verify fidelity, coverage and documentation integrity.
 
 ## Specification and operational-principle audit
 - **Purpose/OP:** [003-B original](003-b-candidate-identity-operational-principles.md) and [R-06 corrective OP](003-b-completion-identity-return.md) identify P01–P06 and archetypal outcomes. C2 and C3 remain distinct from R-06; C6 is not revived as prose.
@@ -46,7 +46,7 @@ The project-specific [003-A plan](003-a-project-start-gate.md) admitted 003-B id
 - **Independence and contamination:** C2, C3 and R-06 use abstract inputs, not each other's native types or actions. No S-81 ReviewReceipt/controller, provider, database, API, UI, workflow, algorithm, cloud topology, synchronization or implementation is selected.
 
 ## Documentation integrity and authority audit
-The corrective 003-E independent review checked **504 relative Markdown links, 0 broken** across 106 docs at `e313539`; this is prior-head evidence, not a new audit of this draft. Phase 003's index must link this 003-F record, and a fresh exact-head independent audit must verify OKF frontmatter, all touched relative links, source provenance, candidate supersession/disposition, navigation and whether the lack of canonical concept owners is an exit blocker. Original 003-E HOLD remains historical and must not be rewritten as a PASS.
+The 003-F independent NOT READY review checked **528 relative Markdown links, 0 broken** across 107 docs at `107500c`; this is prior-head evidence, not a fresh audit of this remediation. Phase 003's index must link this 003-F record, and a fresh exact-head independent audit must verify OKF frontmatter, all touched relative links, source provenance, candidate supersession/disposition, navigation and whether the lack of canonical concept owners is an exit blocker. Original 003-E HOLD remains historical and must not be rewritten as a PASS.
 
 ## Phase 004 handoff and hard return triggers
 - **Entry points:** this record and the linked 003-B/C/D/E original and corrective evidence are the *provisional* concept specifications; Phase 004 must be able to challenge them rather than treat candidate names as final.
@@ -59,6 +59,6 @@ The corrective 003-E independent review checked **504 relative Markdown links, 0
 - **Implementation:** readiness not ready; execution not started; authorization not yet. Phase 004, if separately sponsor admitted, is design analysis only.
 
 ## Proposed independent verdict and sponsor boundary
-**Requested independent decision:** PASS / PASS WITH CARRY-FORWARD / NOT READY TO EXIT, explicitly deciding whether the lack of canonical concept owners and provisional identities is acceptable under the Phase 003 definition and exit template, and whether remaining boundary and evidence questions are legitimate Phase 004 carry-forwards rather than missing behavior. **No verdict is asserted here.**
+**Requested independent decision:** PASS / PASS WITH CARRY-FORWARD / NOT READY TO EXIT, explicitly deciding whether the sponsor-authorized provisional canonical concept owners faithfully carry current specifications and preserve Phase 004 revision authority, and whether remaining boundary and evidence questions are legitimate Phase 004 carry-forwards rather than missing behavior. **No verdict is asserted here.**
 
 If independently PASS or PASS WITH CARRY-FORWARD, record a separate sponsor acceptance decision before Phase 004 entry; this draft cannot itself accept exit. If NOT READY, remediate the specific gaps and repeat exact-head independent review. PR #2 remains Draft and unmerged. No code, infrastructure or implementation is authorized.
