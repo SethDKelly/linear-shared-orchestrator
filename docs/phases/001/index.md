@@ -19,7 +19,7 @@ Phase 001 is the first Jackson-aligned concept-design phase. It converts grounde
 - [001-F sponsor-accepted exit with carry-forwards](001-f-exit.md)
 - [Current canonical purpose model](../../canonical/purpose/purpose-model.md)
 
-Phase 000 and Phase 001 are sponsor-accepted. Phase 001 exit outcome: PASS WITH CARRY-FORWARD (2026-10-22). Phase 002 002-A start gate is admitted; substantive discovery awaits its start-gate outcome.
+Phase 000 and Phase 001 are sponsor-accepted. Phase 001 exit outcome: PASS WITH CARRY-FORWARD (2026-10-22). Phase 002 was subsequently sponsor-accepted PASS WITH CARRY-FORWARD; Phase 003-A independently passed and 003-B is admitted.
 
 ## Navigation
 
