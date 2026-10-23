@@ -1,7 +1,7 @@
 ---
 type: Phase Design Record
 title: 004-D — RD-14 Generic-Case Comparison and Boundary Alternatives (Review Candidate)
-description: Bounded falsification of C2 and R-06 distinctness against the unpromoted C1 control; no final factoring decision.
+description: Bounded C1 civic-actions control and parameterized generic-case comparison against C2 and R-06; no final factoring decision.
 tags: [phase-004, rd-14, boundary-alternatives, provisional, review-candidate]
 sources:
   - id: accepted-exit
@@ -42,7 +42,7 @@ RD-14 / E-301 asks whether C2 and R-06 retain intrinsic, user-observable semanti
 | Comparator | Independently testable action/purpose boundary | Disqualifier and evidence needed | Disposition |
 |---|---|---|---|
 | **A — Historical C1: Distinct civic actions (control only)** | Four distinct accountable civic actions, **inspect evidence**, **contest findings**, **authorize actions**, **report completion**, with a separately accountable actor for each even when concerning one change. Map each against C2 inquiry and R-06 outcome, not against a hypothetical case container. | E-001: resembles S-81/PR #1 receipt/decision/progress architecture, not an established independent user-valued concept. A completion *report* can be mistaken for work *completed*. C1 authorization is a historical control action and neither defines nor grants C3 scoped permission. To displace an owner, demonstrate intrinsic equivalent guards/effects and history, not familiar module names. | **Open control comparison; C1 not promoted** |
-| **B — Hypothetical generic case (new, not C1)** | Proposed single purpose: maintain a revisable, challengeable account of a bounded subject. Candidate abstract state: subject, revision, actor-attributed events, claims, grounds, objections, applicability and inspectable history. Candidate actions: open, record, challenge, address, revise, inspect, with *domain-specific guards still unspecified*. | A single generic action must reproduce C2 question/ground/challenge-disposition and R-06 request/acknowledgment/attempt/assessment/outcome/substantiation/invalidation without `status=done`, invented proof or a disguised union. Specify every precondition, effect, unknown and independent operational principle before equivalence can be judged. | **Open falsification hypothesis; no new owner** |
+| **B — Hypothetical generic case (new, not C1)** | Proposed single purpose: maintain a revisable, challengeable account of a bounded subject. Candidate abstract state: subject, revision, actor-attributed events, claims, grounds, objections, applicability and inspectable history. Candidate actions: open, record, challenge, address, revise, inspect, with *domain-specific guards still unspecified*. | A coherent single purpose and parameterized guard/effect table must reproduce C2 question/ground/challenge-disposition and R-06 request/acknowledgment/attempt/assessment/outcome/substantiation/invalidation without `status=done`, invented proof or a disguised union. Specify every precondition, effect, unknown and independent operational principle before equivalence can be judged. | **Open falsification hypothesis; no new owner** |
 
 **Separate falsification tracks:** A is challenged for its four civic actor boundaries and the E-001 recordkeeping/completion confusion. B is challenged for whether one coherent generic purpose and guard/effect algebra can actually reproduce both concepts. A favorable result on either track cannot be substituted for evidence on the other.
 
@@ -57,6 +57,34 @@ RD-14 / E-301 asks whether C2 and R-06 retain intrinsic, user-observable semanti
 | Support and eligibility | Offered grounds are contestable applicability assertions, not independently verified truth | Completed-outcome substantiation needs attributable, revision-applicable, challengeable support and abstract actor eligibility; `verified=true` is insufficient | Do not equate C2 grounds with R-06 completion proof, or smuggle IAM/actor policy into the generic case. Concrete credibility and eligibility are still unresolved, not evidence of identity collapse. |
 
 These are **specification-level falsification probes**, not completed user studies, executable tests or a finding that C1 is invalid. Comparator A must also be tested as four distinct actor-accountable civic actions, not as the generic case in comparator B. The shared vocabulary of claims, grounds, challenge and revision creates a real genericity hypothesis. The different observable purposes, states, guard/effect rules and substantiation requirements are counterevidence that must be challenged independently.
+
+## Strongest generic-case collapse candidate B1 — constructed comparison, not a verdict
+
+**B1's proposed single purpose** is to preserve a bounded subject's attributable, revisable, contestable assertions and their current applicability. Candidate state consists of subject, revision, typed actor-attributed events, grounds/bases, challenges, supersession and inspectable history. Its abstract operations are `record(kind,...)`, `challenge(target,...)`, `address(challenge,...)`, `changeRevision(...)`, `invalidate(basis,...)`, `markSupported(assertion,...)` and `inspect(view)`. A **single parameterized guard/effect table**, rather than one generic action or `status=done`, must preserve the full source behavior. Typed rules below are a *hypothesis*, not a new canonical specification; the risk is that B1 is merely a tagged union of two distinct concepts.
+
+| Source action | Proposed B1 guard / effect mapping (testable hypothesis) |
+|---|---|
+| C2 `OpenInquiry` | `record(question)`: supplied revision; unsettled question, no request or answer inferred |
+| C2 `OfferGround` | `record(ground)`: inquiry exists; contestable claimed applicability, not independent verification |
+| C2 `ChallengeGround` | `challenge(ground)`: inquiry and ground exist; preserve dispute |
+| C2 `AddressChallenge` | `address(groundChallenge)`: challenge exists; attributed disposition/rationale, no erasure |
+| C2 `RebaseInquiry` | `changeRevision(inquiry)`: inquiry exists; old grounds and answers lose presumed applicability, history remains |
+| C2 `ProposeAnswer` | `record(answer)`: inquiry exists; cited grounds and revision; provisional only, never permission/execution proof |
+| C2 `InspectInquiry` | `inspect(inquiryView)`: inquiry exists; question, grounds, unresolved challenges, revision and answer applicability/history |
+| R-06 `RequestWork` | `record(request)`: bounded unit and revision; request only, not progress |
+| R-06 `AcknowledgeRequest` | `record(ack)`: **request exists**; acknowledgment only |
+| R-06 `RecordAttempt` | `record(attempt)`: request exists and actor attributable; failed/unknown reported result allowed; acknowledgment not required |
+| R-06 `RecordAssessment` | `record(assessment)`: revision identified; evaluation claim, not completion |
+| R-06 `AssertOutcome` | `record(outcomeClaim)`: attributable subject and bases; assertion without substantiation |
+| R-06 `ChallengeOutcome` | `challenge(outcomeClaim)`: assertion exists; disputed with preserved objection; **no** canonical outcome-disposition action |
+| R-06 `SubstantiateOutcome` | `markSupported(outcomeClaim,basis)`: attributable assertion, supporting basis applicable to **current** revision, no unresolved disqualifying challenge; never authorization |
+| R-06 `InvalidateBasis` | `invalidate(basis)`: basis exists; dependent current substantiation withdrawn **on same revision**, history retained |
+| R-06 `ReidentifyWork` | `changeRevision(workUnit)`: new revision differs; old assessments/claims/bases lose inherited applicability, history retained |
+| R-06 `InspectOutcome` | `inspect(outcomeView)`: unit exists; separate request/ack/attempt/assessment/claim/substantiation/dispute/invalidation; missing facts = **unknown** |
+
+**Reasoned adverse checks, not empirical execution:** B1 can represent an inquiry without a work request and work without inquiry; acknowledgment without attempt and attempt without acknowledgment; an attributed C2 challenge disposition alongside an *unresolved* R-06 challenge; same-revision basis invalidation versus work reidentification; and **RD-08 contradictory supported outcomes that remain contested**. It cannot legitimately create an R-06 `AddressOutcomeChallenge` transition: the absence is an **open R-06 completeness/ownership question** from 004-B, not distinctness evidence. B1's type-specific guards are essential to these outcomes; a generic label, timeout, favorable review or `verified=true` cannot substitute for them. Actor eligibility and basis credibility remain unvalidated RD-15 inputs.
+
+**Collapse test result so far: INDETERMINATE.** This table establishes a plausible *representation* of both action sets, not an independently valuable **single operational principle**. A reviewer must challenge whether the typed guard differences express one intrinsic purpose or merely embed two concepts under one event store. Shared challenge/revision/history mechanics do not by themselves establish unity or separation. If a true intrinsic collapse is demonstrated, reopen Phase 002-C with independently reviewed alternatives; do not automatically promote historical C1 or B1. If B1 is a disguised union, name the decisive guard/purpose counterexample rather than treating weak generic cases as proof of independence. No RD-14 closure, 004-E admission, canonical-owner change, implementation or AWS/IAM authorization follows.
 
 ## Boundary alternatives and discriminating tests
 
@@ -81,7 +109,7 @@ These are **specification-level falsification probes**, not completed user studi
 
 ## Preliminary analysis and review boundary
 
-**No RD-14 resolution yet.** Probes 0–5 are **proposed falsification tests**, not executed tests or established evidence that independence survives. Probe 6 remains an untested strongest collapse alternative. The current evidence supports **continuing** adversarial comparison, not declaring C2/R-06 permanently independent or declaring a generic-case collapse. A reviewer must challenge the counterexamples and request missing behavior-level equivalence evidence. If a collapse is established, stop 004-D boundary promotion and return to Phase 002-C; otherwise preserve unresolved alternatives for 004-E rather than fabricating a final choice.
+**No RD-14 resolution yet.** Probes 0–5 are **proposed falsification tests**, not executed tests or established evidence that independence survives. Probe 6 now has a constructed B1 mapping and reasoned adverse checks, but still lacks independent equivalence and purpose validation. The current evidence supports **continuing** adversarial comparison, not declaring C2/R-06 permanently independent or declaring a generic-case collapse. A reviewer must challenge the counterexamples and request missing behavior-level equivalence evidence. If a collapse is established, stop 004-D boundary promotion and return to Phase 002-C; otherwise preserve unresolved alternatives for 004-E rather than fabricating a final choice.
 
 C1 remains an unpromoted control; C3 scoped permission is a negative control, **not** a 004-D authorization to decide C3's final boundary. C4 stays a recovery lens, C5 deferred, C6 unpromoted. P05 ownership remains open. R-06 basis credibility, actor eligibility and C2-ground synchronization remain open; Phase 005 composition, Phase 006 inclusion, Phase 007 presentation and later empirical/security validation are not specified here. E-301–E-306, G01–G14, E-001–E-004 and the historical aws-backbone **S-40 HOLD (003-D RD-12)** remain binding; neither a favorable review nor a shared coordinator may clear local security authority.
 
