@@ -33,3 +33,5 @@ Project-specific substantive subphases remain dynamically derived by `003-A`; Ba
 - [Next phase](../004/)
 - [All phases](../)
 - [Canonical knowledge](../../canonical/)
+
+- [003-F independent exit assessment and Phase 004 handoff](003-f-independent-exit-assessment.md) — draft; independent exit verdict pending, sponsor acceptance not given.
