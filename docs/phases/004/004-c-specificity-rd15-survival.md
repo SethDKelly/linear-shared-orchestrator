@@ -20,7 +20,7 @@ sources:
 
 # 004-C — Bounded specificity and RD-15 survival assessment
 
-**Status: proposed evidence for independent review, not an accepted verdict.** Cursor's exact-head 004-B PASS WITH CARRY-FORWARD at `50c6938` admits only this specificity, minimal completeness and RD-15 assessment. **RD-14, C1 promotion, final boundaries and 004-D are closed.**
+**Status: independent 004-C PASS WITH CARRY-FORWARD at `fba7b20`.** The bounded RD-15 abstract-survival ruling admits **004-D only for RD-14 generic-case comparison and boundary alternatives**. RD-14 remains open; C1 promotion and final boundary decisions are not authorized.
 
 ## Baseline and reviewer carry-forwards
 
@@ -46,17 +46,17 @@ These are **logical counterexamples against the current specification**, not pro
 
 | Adversarial case | What R-06 can specify without infrastructure | Remaining survival question |
 |---|---|---|
-| An actor asserts “completed” with `verified=true` and no independent basis | `AssertOutcome` records a claim only; `SubstantiateOutcome` cannot treat a boolean as independent grounds | Which abstract basis relation is credible without a provider, review receipt or controller? **Unresolved** |
+| An actor asserts “completed” with `verified=true` and no independent basis | `AssertOutcome` records a claim only; `SubstantiateOutcome` cannot treat a boolean as independent grounds | Concept-level basis relation survives as attributable, revision-applicable, challengeable support; concrete credibility criterion **open** |
 | Basis is a C2 ground that was challenged or superseded | R-06 requires current-revision applicability and no unresolved disqualifying challenge; C2 does not itself prove work execution | Is ground credibility owned intrinsically, or an external Phase 005 synchronization? **Unresolved U/S** |
-| A participant can assert but may not be eligible to substantiate | Separate attributable assertion from substantiation; never infer eligibility from a claimed actor name | What minimal actor-eligibility predicate can be stated without hidden IAM? **Unresolved** |
+| A participant can assert but may not be eligible to substantiate | Separate attributable assertion from substantiation; never infer eligibility from a claimed actor name | An abstract actor-eligibility predicate survives without hidden IAM; its concrete rule **open** |
 | Two supported but contradictory outcome assertions exist | Keep both contested; do not silently select one or declare completion | Who can resolve a contradiction and what independent basis suffices? **Unresolved** |
-| Basis later invalidated or work reidentified | `InvalidateBasis` removes dependent current substantiation; `ReidentifyWork` removes inherited assessments/claims/bases | Can the minimal concept distinguish historic evidence from fresh support without a specific storage mechanism? **Provisionally yes at abstract level; independent challenge required** |
+| Basis later invalidated or work reidentified | `InvalidateBasis` removes dependent current substantiation; `ReidentifyWork` removes inherited assessments/claims/bases | Yes at abstract concept level under the 004-C review; concrete storage/evidence policy remains open |
 | Failure, partial, unknown, nonresponse, timeout or quota | None creates a substantiated result | No infrastructure-specific retry/timeout behavior is authorized |
 
 **Independent 004-C ruling at `fba7b20`: PASS WITH CARRY-FORWARD; no Phase 002-C return required on RD-15.** A viable concept-level basis is *attributable, revision-applicable, challengeable support*. Citation alone does not establish credibility. Actor eligibility is an abstract predicate, not an actor name, provider response, issue state, coordinator, C3 authority basis or hidden IAM. Concrete basis credibility and actor-eligibility rules remain **open** and must not be invented. This is a bounded abstract survival result, not empirical verification or permission to close RD-14.
 
 ## Boundary preservation and next gate
 
-RD-14 remains open until RD-15's survival evidence is independently reconciled. C1 stays a comparator, C4 a recovery lens, C5 deferred and C6 unpromoted. E-305/E-306, E-001–E-004, G01–G14 and S-40 HOLD remain binding. External obligation claims stay outside C3 (E-302); Phase 005 synchronization, Phase 006 inclusion and Phase 007 presentation remain deferred.
+RD-14 remains open; the independent RD-15 abstract-survival ruling is reconciled here without closing concrete credibility or actor-eligibility questions. C1 stays a comparator, C4 a recovery lens, C5 deferred and C6 unpromoted. E-305/E-306, E-001–E-004, G01–G14 and S-40 HOLD remain binding. External obligation claims stay outside C3 (E-302); Phase 005 synchronization, Phase 006 inclusion and Phase 007 presentation remain deferred.
 
-**004-C completion requires** an independent exact-head review of the specificity/minimal-completeness tests, RD-15 survival or explicit HOLD/return, purpose coverage and guard/effect fidelity. This document makes no claim to 004-D admission, Phase 004 exit, implementation or AWS authorization.
+**004-C independent review completed** at `fba7b20` with PASS WITH CARRY-FORWARD. **004-D is admitted solely for RD-14 generic-case comparison and boundary alternatives**; this is not Phase 004 exit, implementation, merge or AWS authorization.
