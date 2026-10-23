@@ -12,6 +12,7 @@ Phase 003 converts retained Phase 002 candidates into precise, representation-in
 ## Project-specific start gate
 
 - [003-A project specification start gate](003-a-project-start-gate.md) — independent PASS at aa12c9a; 003-B admitted. Phase 002 sponsor accepted on 2026-10-22.
+- [003-B candidate identity and operational principles](003-b-candidate-identity-operational-principles.md) — provisional C2/C3/C6 identity tests and archetypal operational principles; independent review pending.
 
 ## Refinement status
 
