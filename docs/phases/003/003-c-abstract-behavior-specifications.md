@@ -16,7 +16,7 @@ sources:
 ---
 # 003-C — Abstract behavior specifications
 
-**Status: PROVISIONAL BEHAVIORAL DRAFT — independent review pending; separate 003-D adversarial findings must be reconciled in 003-E.** These are representation-independent hypotheses, not canonical concepts, executable models, APIs, workflow definitions or application architecture.
+**Status: INDEPENDENT PASS at 321bbf0; 003-E reconciliation admitted. Separate 003-D evidence remains independently owned.** These are representation-independent hypotheses, not canonical concepts, executable models, APIs, workflow definitions or application architecture.
 
 ## C2 — Living inquiry
 
