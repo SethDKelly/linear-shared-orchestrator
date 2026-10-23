@@ -11,7 +11,7 @@ Phase 002 explores materially different candidate concepts and conceptual decomp
 
 ## Project transition status
 
-Phase 001 [sponsor-accepted exit](../001/001-f-exit.md) is PASS WITH CARRY-FORWARD (2026-10-22). Phase 002 entry is admitted for its mandatory 002-A start gate; no substantive concept discovery, final concept catalog, or implementation is authorized by admission alone. Carry-forward obligations remain active.
+Phase 001 [sponsor-accepted exit](../001/001-f-exit.md) is PASS WITH CARRY-FORWARD (2026-10-22). Phase 002 completed its divergent discovery and received sponsor acceptance as PASS WITH CARRY-FORWARD (2026-10-22). Phase 003-A has independently passed; 003-B is admitted. No final concept catalog or implementation is authorized. Carry-forward obligations remain active.
 
 - [002-A project-specific entry record](002-a-project-start-gate.md) — independently verified PASS.
 - [002-B purpose-first divergent seeds](002-b-purpose-first-seeds.md) — independent PASS on provisional divergent handoff; no selected concept.
