@@ -19,7 +19,7 @@ sources:
 ---
 # 003-B corrective return — completion identity
 
-**Status: CORRECTIVE IDENTITY REVIEW PASS at `af3b5c1` ([independent verdict](https://github.com/SethDKelly/linear-shared-orchestrator/pull/2#issuecomment-6356023861)); original 003-E HOLD subsequently lifted by corrective retry PASS at `e313539`. Phase 003-F exit is NOT READY pending canonical ownership and navigation remediation. R-06 remains provisional.**
+**Status: INDEPENDENT PASS at af3b5c1; bounded corrective 003-C/D independently passed at 75e3f41; 003-E corrective reconciliation independently passed at e313539. Provisional canonical ownership subsequently sponsor-authorized; no Phase 003 exit acceptance.**
 
 ## Why the return is mandatory
 The independent [003-E HOLD](https://github.com/SethDKelly/linear-shared-orchestrator/pull/2#issuecomment-6355680196) found P06 actual-completion behavior undefined. C2 owns contested grounds, not completion; C3 owns scoped permission, not completion; C6's prose/narrative hypothesis is not an intrinsic owner. Phase 004 may question concept boundaries, but cannot repair absent state and actions. Preserve the accepted C2/C3 reconciliations and C6 non-promotion.
