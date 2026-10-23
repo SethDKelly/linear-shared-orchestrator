@@ -9,6 +9,10 @@ Phase 004 audits and corrects the factoring of behavior into concepts so each re
 - [Concept Modularity & Boundary Refinement Contract](modularity-boundary-contract.md) — specificity, completeness, independence, genericity, boundary corrections, re-specification, counterexample, and documentation rules.
 - [Exit Review & Phase 005 Handoff Template](exit-review-template.md) — reusable closure test used by the dynamically selected final Phase 004 subphase.
 
+## Project Phase 004 start gate
+
+- [004-A project start-gate preparation](004-a-project-start-gate.md) — sponsor-accepted Phase 003 baseline, modularity risk inventory, proposed B–F workstreams, and independent review entry criteria. **Prepared; review pending.**
+
 ## Refinement status
 
 **Refined.**
