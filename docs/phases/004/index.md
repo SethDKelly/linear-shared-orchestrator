@@ -35,3 +35,5 @@ Project-specific substantive subphases remain dynamically derived by `004-A`; Ba
 - [Next phase](../005/)
 - [All phases](../)
 - [Canonical knowledge](../../canonical/)
+
+- **Current 004-D evidence qualification (review candidate):** [Q1–Q5 discriminating-evidence protocol and exact-head review ledger](004-d-rd14-generic-case-boundary-alternatives.md#rd-14-discriminating-evidence-qualification-protocol--proposed-bounded-decision-test) now consolidate the C1 control, B1 typed-union and B2 untyped-ledger comparisons with [source-linked probes 1–5](004-d-rd14-probes-1-5-paper-traces.md). At `d30bf3b`, Cursor independently returned **PASS WITH CARRY-FORWARD** and Codex reported no major code-review issues (not semantic approval); the new Q1–Q5 candidate requires fresh exact-head review. **RD-14 OPEN/INDETERMINATE; 004-D exit and 004-E/005 admission not granted; C2/C3/R-06 provisional; RD-15, P05 and S-40 unresolved.**
