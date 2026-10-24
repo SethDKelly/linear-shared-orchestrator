@@ -1,0 +1,44 @@
+---
+type: Phase Design Record
+title: 004-D — RD-14 Adversarial Paper Traces for Probes 1–5 (Review Candidate)
+description: Source-linked non-executable discriminator traces for C2/R-06 against the B2 untyped claim-ledger hypothesis; no RD-14 decision.
+tags: [phase-004, rd-14, adversarial, provisional, review-candidate]
+sources:
+  - id: c2
+    resource: ../../canonical/concepts/c2-living-inquiry.md
+    title: Provisional C2 inquiry contract
+  - id: r06
+    resource: ../../canonical/concepts/r06-work-outcome-accountability.md
+    title: Provisional R-06 outcome contract
+  - id: c3
+    resource: ../../canonical/concepts/c3-scoped-authorization.md
+    title: Provisional C3 authorization negative control
+  - id: comparison
+    resource: 004-d-rd14-generic-case-boundary-alternatives.md
+    title: RD-14 B1/B2 hypotheses and original probes
+  - id: rd15
+    resource: 004-c-specificity-rd15-survival.md
+    title: RD-15 abstract survival and concrete unknowns
+---
+
+# 004-D — source-linked paper traces for adversarial probes 1–5
+
+**Status:** bounded review candidate, not an executable test, participant study, empirical validation, proof of impossibility, RD-14 decision, Phase 004-D exit, or 004-E admission. These traces instantiate probes 1–5 of the [004-D comparison](004-d-rd14-generic-case-boundary-alternatives.md). The B2 comparator is a *hypothesis*: untyped `Post`, `Object`, `Respond`, `Supersede`, `Withdraw`, `Inspect` with generic existence/attribution and different-revision guards. It must not acquire inquiry/work-specific semantics by renaming or hidden interpreter rules. Historical C1 civic control and B1's rejected tagged union are separate comparators.
+
+## Paper trace matrix (not executed)
+
+| Probe | Source-permitted sequence and distinct observations | Counterfactual B2 challenge | Falsifier / what could overturn this paper finding |
+|---|---|---|---|
+| **1. Inquiry with no work** | Begin with no inquiries and no work requests. `OpenInquiry(q,r0)` yields an **unsettled question** even without a ground. `OfferGround(i,g,r0)` adds a claimed-applicable ground, not verified truth. `ProposeAnswer(i,claim,[g])` is a provisional, revision-qualified answer, not completion or permission. `InspectInquiry(i)` must expose the question, grounds, unresolved challenges and answer applicability. No R-06 `RequestWork` is required. | `Post(q)`, `Post(g)`, `Respond(claim)` preserve generic records but do not derive the inquiry/ground/answer relations, unsettled state or answer applicability. Requiring a work request would incorrectly exclude this C2-only case. | Supply a **single untyped rule** that derives all C2 relationships and observations from these events without introducing a `kind=inquiry` branch, typed guard table or hidden work prerequisite. |
+| **2. Work with no inquiry** | On distinct requested units, `RequestWork(u,r0,a)` then `AcknowledgeRequest(u,r0,b)` records acknowledgment with **no attempt**; separately `RequestWork(v,r0,a)` then `RecordAttempt(v,r0,c,unknown)` records attempt with **no acknowledgment**. `RecordAssessment(v,r0,d,favorable)` is an evaluation, not completion. `InspectOutcome` distinguishes request, acknowledgment, attempt, assessment, assertion, substantiation and unknowns; neither unit needs a C2 inquiry. | Generic `Post`/`Respond` cannot infer request-revision guards, acknowledgment/attempt independence or the non-implication of substantiated completion from a favorable assessment. No `status=done` shortcut is permitted. | Demonstrate a source-complete, untyped operational principle that reproduces the R-06 distinctions and inspection without requiring an inquiry or merely encoding a typed work branch. |
+| **3. Challenge asymmetry** | With an existing C2 inquiry and ground, `ChallengeGround(i,g,reason)` registers an objection; `AddressChallenge(i,ch,disposition,rationale)` adds an attributed disposition **without erasing** the objection. Independently, after an R-06 outcome assertion, `ChallengeOutcome(u,assertion,reason)` retains an objection; **no canonical R-06 outcome-challenge disposition action exists**. A disqualifying unresolved challenge blocks current `SubstantiateOutcome`. | A universal `Respond(objection)` cannot be both the required C2 disposition and an absent R-06 disposition without adding type-specific rules or inventing R-06 behavior. Silence does not clear an objection. | Exhibit a genuinely common behavior with all C2 disposition and R-06 non-disposition effects preserved, or produce independently reviewed source evidence authorizing a changed R-06 contract. P05 ownership remains open. |
+| **4. Revision versus same-revision invalidation** | On C2 `RebaseInquiry(i,r1)`, earlier grounds and answers lose presumed current applicability while history remains. On R-06 `ReidentifyWork(u,r1)`, earlier claims/bases do not automatically apply. Separately on an existing R-06 basis at **the same revision**, `InvalidateBasis(u,b,reason)` withdraws dependent current substantiation but preserves the historical assertion. `InspectInquiry` and `InspectOutcome` expose different applicability and invalidation facts. | `Supersede` or `Withdraw` as undifferentiated chronology cannot derive both revision-transition effects and same-revision basis-dependent invalidation without further rules. | Show uniform rules for applicability, dependency withdrawal and two inspection contracts that do not silently carry old support into current state. |
+| **5. False-positive completion/permission** | A favorable C2 answer, an R-06 assessment, an outcome assertion without applicable supporting basis, `verified=true`, silence, or a C1 authorization *label* are not current substantiated completion. C3 permission is a separate exact-scope decision by a project-local authority; it cannot be inferred from these events. The S-40 HOLD remains external and binding. | Generic `Respond(accepted)` or `Post(verified)` must not create either a substantiated outcome or scoped authorization. B2 supplies no credibility/eligibility policy and cannot silently fill RD-15 unknowns. | Present applicable, independently meaningful basis and guard-complete R-06 substantiation **plus** separately sourced C3 authorization, without claiming either is derived from the other. |
+
+## Review and evidence ledger
+
+1. **Provenance:** The traces are reasoned examples against the current provisional [C2](../../canonical/concepts/c2-living-inquiry.md) and [R-06](../../canonical/concepts/r06-work-outcome-accountability.md) specifications, not runs of a model or observations of users. No executable harness, empirical dataset, participant evaluation, or reviewer-supplied stronger B2 algebra is present.
+2. **Bounded conclusion:** B2's present untyped event vocabulary does not *by itself* derive the listed source contracts. This is not a universal impossibility result and does not establish permanent independence of C2 and R-06, redundancy of C1, or a new final boundary. B1's tagged-union failure remains candidate-specific.
+3. **Missing decisive evidence:** A complete competing algebra with guard/effect/history/inspection equivalence; independently valuable generic purpose; concrete RD-15 basis credibility and actor eligibility; P05/R-06 challenge-disposition ownership; and any empirical user-valued evidence required by the eventual gate. A demonstrated intrinsic collapse requires Phase 002-C return and independent review before a boundary decision.
+4. **Independent review request:** Verify every source action, existence prerequisite, revision effect, history/inspection distinction and negative control; specifically challenge whether the B2 falsifiers are genuinely type-independent. Return PASS, PASS WITH CARRY-FORWARD or HOLD **for the bounded paper comparison only**. Do not treat a Codex no-major-issues code-review receipt as independent semantic approval.
+5. **Authority:** Phase 004 may revise, split, merge or reject provisional C2/C3/R-06. RD-14 remains OPEN/INDETERMINATE; C1 unpromoted; RD-15 and P05 open; S-40 HOLD. No merge, canonical-owner promotion, implementation, AWS/IAM activity, 004-D exit, 004-E/005 admission or Phase 012 entry is authorized by this paper trace.
