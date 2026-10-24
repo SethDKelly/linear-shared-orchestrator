@@ -15,6 +15,10 @@ Repository-wide process and knowledge-governance contracts. These documents gove
 - [Canonical and Historical Knowledge Authority](knowledge-authority.md) — distinction between current canonical design truth and historical phase evidence.
 - [Agentic Development Governance](agentic-development-governance.md) — shared repository rules for Claude, Cursor, Codex, and other coding agents consuming and maintaining the OKF-grounded knowledge system.
 
+## Non-authoritative downstream proposals
+
+- [Qualification-contract-governed delivery and independent verification — proposal](qualification-contract-delivery-proposal.md) — **not adopted**: a versioned shared semantic contract for future separately authorized implementation, parallel independent testing, focused PR gates, evidence-ledger traceability and exact-head final reviews. No implementation admission or change to Phases 000–012.
+
 ## Navigation
 
 - [Bundle root](../)
