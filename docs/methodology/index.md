@@ -1,6 +1,6 @@
 # Methodology
 
-Repository-wide process and knowledge-governance contracts. These documents govern repositories cloned from Base across concept design and the post-closure pre-implementation transition.
+Repository-wide process and knowledge-governance contracts. **The core methodology and knowledge-governance documents below govern** repositories cloned from Base across concept design and the post-closure pre-implementation transition. Documents under **Non-authoritative downstream proposals** are explicitly non-governing and require a separately qualified adoption decision.
 
 ## Core methodology
 
