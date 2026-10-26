@@ -19,7 +19,7 @@ Phase 001 is the first Jackson-aligned concept-design phase. It converts grounde
 - [001-F sponsor-accepted exit with carry-forwards](001-f-exit.md)
 - [Current canonical purpose model](../../canonical/purpose/purpose-model.md)
 
-Phase 000 and Phase 001 are sponsor-accepted. Phase 001 exit outcome: PASS WITH CARRY-FORWARD (2026-10-22). Phase 002 was subsequently sponsor-accepted PASS WITH CARRY-FORWARD; Phase 003 exit was subsequently sponsor-accepted with carry-forwards; Phase 004-A through 004-C have independent bounded reviews on unmerged PR #3. This historical index does not confer a Phase 004 exit.
+Phase 000 and Phase 001 are sponsor-accepted. Phase 001 exit outcome: PASS WITH CARRY-FORWARD (2026-10-22). Phase 002 was subsequently sponsor-accepted PASS WITH CARRY-FORWARD; Phase 003 exit was subsequently sponsor-accepted with carry-forwards; Phase 004-A/B/C received bounded independent reviews and PR #3 subsequently merged as `e20258bdcfac794c7b6375d347db3f8080c4fe53`. Sponsor S-135 froze 004-D Q4/Q5 while RD-14 remains OPEN/INDETERMINATE and RD-15 OPEN; 004-E closure merged in PRs #7–#9, 004-F entry in PR #10, and F1/F2 in PRs #11/#12. [F3](../004/004-f3-independent-exit-evidence.md) is a review candidate. C2/C3/R-06 remain provisional; Phase 004 sponsor exit and Phase 005 admission have not occurred; S-40 HOLD persists. Historical Phase 001 exit remains unchanged.
 
 ## Navigation
 
