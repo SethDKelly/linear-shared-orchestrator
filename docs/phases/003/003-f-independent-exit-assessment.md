@@ -19,6 +19,8 @@ sources:
 ---
 # 003-F — Independent exit assessment and Phase 004 handoff
 
+> **Current-status navigation note (2026-10-23):** The opening NOT READY / sponsor acceptance NOT GIVEN and historical PR #2 Draft/unmerged statements below describe earlier gate snapshots. Later in this record Phase 003 sponsor acceptance with carry-forwards was recorded; PR #2 subsequently merged to main as `82b6a9f`. Phase 004-A through 004-C have independently passed with carry-forwards on unmerged PR #3. This note does not alter any historical verdict or grant Phase 004 exit.
+
 **Status: INDEPENDENT NOT READY TO EXIT at 107500c; sponsor-authorized provisional canonical ownership and navigation remediation submitted for fresh exact-head review. Sponsor exit acceptance NOT GIVEN. Phase 004 NOT ADMITTED.** No canonical concept promotion, implementation or PR merge is authorized.
 
 ## Gate evidence and planned-work disposition
