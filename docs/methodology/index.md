@@ -19,6 +19,8 @@ Repository-wide process and knowledge-governance contracts. **The core methodolo
 
 - [Qualification-contract-governed delivery and independent verification — proposal](qualification-contract-delivery-proposal.md) — **not adopted**: a versioned shared semantic contract for future separately authorized implementation, parallel independent testing, focused PR gates, evidence-ledger traceability and exact-head final reviews. No implementation admission or change to Phases 000–012.
 
+- [Closure-oriented planning and priority admission — review candidate](closure-oriented-planning-proposal.md) — **not adopted**: PR #16, non-authoritative planner and scope-conservation proposal; independent qualification and separate adoption required.
+
 ## Navigation
 
 - [Bundle root](../)
