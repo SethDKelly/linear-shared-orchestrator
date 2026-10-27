@@ -1,6 +1,6 @@
 # Methodology
 
-Repository-wide process and knowledge-governance contracts. These documents govern repositories cloned from Base across concept design and the post-closure pre-implementation transition.
+Repository-wide process and knowledge-governance contracts. **The core methodology and knowledge-governance documents below govern** repositories cloned from Base across concept design and the post-closure pre-implementation transition. Documents under **Non-authoritative downstream proposals** are explicitly non-governing and require a separately qualified adoption decision.
 
 ## Core methodology
 
@@ -15,11 +15,11 @@ Repository-wide process and knowledge-governance contracts. These documents gove
 - [Canonical and Historical Knowledge Authority](knowledge-authority.md) — distinction between current canonical design truth and historical phase evidence.
 - [Agentic Development Governance](agentic-development-governance.md) — shared repository rules for Claude, Cursor, Codex, and other coding agents consuming and maintaining the OKF-grounded knowledge system.
 
-## Non-authoritative design candidates (not governing methodology)
+## Non-authoritative downstream proposals
 
-The documents in this section are review candidates only and are **excluded** from the governing-contract description above. They do not grant implementation, phase admission, or methodology-adoption authority.
+- [Qualification-contract-governed delivery and independent verification — proposal](qualification-contract-delivery-proposal.md) — **not adopted**: a versioned shared semantic contract for future separately authorized implementation, parallel independent testing, focused PR gates, evidence-ledger traceability and exact-head final reviews. No implementation admission or change to Phases 000–012.
 
-- [Closure-oriented planning and priority admission proposal](closure-oriented-planning-proposal.md) — PR #16; independent critique and adoption pending. Separate from PR #6's qualification-contract proposal.
+- [Closure-oriented planning and priority admission — review candidate](closure-oriented-planning-proposal.md) — **not adopted**: PR #16, non-authoritative planner and scope-conservation proposal; independent qualification and separate adoption required.
 
 ## Navigation
 
