@@ -15,6 +15,12 @@ Repository-wide process and knowledge-governance contracts. These documents gove
 - [Canonical and Historical Knowledge Authority](knowledge-authority.md) — distinction between current canonical design truth and historical phase evidence.
 - [Agentic Development Governance](agentic-development-governance.md) — shared repository rules for Claude, Cursor, Codex, and other coding agents consuming and maintaining the OKF-grounded knowledge system.
 
+## Non-authoritative design candidates (not governing methodology)
+
+The documents in this section are review candidates only and are **excluded** from the governing-contract description above. They do not grant implementation, phase admission, or methodology-adoption authority.
+
+- [Closure-oriented planning and priority admission proposal](closure-oriented-planning-proposal.md) — PR #16; independent critique and adoption pending. Separate from PR #6's qualification-contract proposal.
+
 ## Navigation
 
 - [Bundle root](../)
