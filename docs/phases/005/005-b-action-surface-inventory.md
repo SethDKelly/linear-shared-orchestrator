@@ -29,7 +29,7 @@ tags: [phase-005, action-surface, source-inventory, review-candidate]
 | C2 | `AddressChallenge` | U | Attributed disposition preserves challenge history; actor eligibility not invented here. |
 | C2 | `RebaseInquiry` | D? | New revision invalidates presumed applicability of old grounds/answers. |
 | C2 | `ProposeAnswer` | D? | Revision-qualified provisional claim, not permission or completed work. |
-| C2 | `InspectInquiry` | D? | Exposes question, revision, disputed/stale grounds and current applicability. |
+| C2 | `InspectInquiry` | D? | Exposes question, current revision, grounds, unresolved challenges and current provisional-answer applicability; contested/stale grounds remain visible, not automatically credible. |
 | C3 | `ConsiderScope` | D? | External obligation assertions do not create permission. |
 | C3 | `Withhold` | D? | Actor-attributed withholding; silence is not a grant. |
 | C3 | `Authorize` | U | Explicit project-local authority predicate and exact scope; never inferred from review, C2 or R-06. |
@@ -60,6 +60,7 @@ tags: [phase-005, action-surface, source-inventory, review-candidate]
 
 ## Decision ledger and handoff
 
+- **CF-1 C2 `InspectInquiry` source-alignment candidate:** The corrected row enumerates the complete [canonical C2 inspection surface](../../canonical/concepts/c2-living-inquiry.md) rather than only disputed/stale grounds. This is an inventory correction, **not** an intrinsic C2 action change or an accepted direct application exposure. TPO must obtain attributable provisional C2 source-owner semantic confirmation **before** using this row as a Phase 005-D guard or accepting direct exposure; independent exact-head review remains separate. The `D?` classification remains provisional; no permission or synchronization edge follows. See [005-C1](005-c1-source-first-composition-reassessment.md) for the trigger and negative controls.
 - **Unresolved exposure:** C2 `AddressChallenge`; C3 `Authorize`/`Withdraw`; R-06 `ChallengeOutcome`/`InvalidateBasis`. TPO routes source-owner/authority evidence; a missing assignee is metadata debt, not independent proof of unsound semantics.
 - **Non-exposure hypothesis:** R-06 `SubstantiateOutcome` is a protected candidate pending independently qualified policy; do not infer that it must be directly invokable or system-triggered.
 - **RD-14/RD-15:** Remain open with [F2 owner/trigger routing](../004/004-f2-obligation-navigation-crosswalk.md); [F1 provisional owner dispositions](../004/004-f1-owner-disposition-reconciliation.md) remain in force. S-135 Q4/Q5 frozen absent material intrinsic evidence. No silent owner promotion.
