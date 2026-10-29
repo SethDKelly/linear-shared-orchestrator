@@ -1,13 +1,13 @@
 ---
 type: Phase Design Candidate
 title: 005-D — Six-Action Source-First Exposure and Scope/Work Seam Assessment
-description: Bounded paper-trace assessment of C3 and R-06 application actions; no synchronization or exposure accepted.
-tags: [phase-005, composition, application-actions, six-action-tranche, review-candidate]
+description: Bounded paper-trace assessment of C3 and R-06; two direct conceptual actions accepted in 005-D1, no synchronization accepted.
+tags: [phase-005, composition, application-actions, six-action-tranche, partial-accepted-work]
 ---
 
 # 005-D — Six-action source-first assessment
 
-**Status: DESIGN CANDIDATE FOR INDEPENDENT REVIEW; no action exposure or synchronization edge accepted.** This follows the [independently qualified, TPO-admitted entry](005-d-entry-assessment.md), [S-145](https://linear.app/s-kelly/issue/S-145), the [Phase 005 composition contract](composition-synchronization-contract.md), [C3](../../canonical/concepts/c3-scoped-authorization.md), [R-06](../../canonical/concepts/r06-work-outcome-accountability.md), and [Phase 000 intake](../../canonical/project/intake.md). Source-owned intrinsic guards are unchanged. The classifications below are *proposals*, not project-local authorization.
+**Status: PARTIALLY ACCEPTED — 005-D1 direct conceptual exposure of C3 `ConsiderScope` and R-06 `RequestWork` only.** Independent Cursor exact-head semantic PASS and separate Codex no-major-findings review on [PR #26](https://github.com/SethDKelly/linear-shared-orchestrator/pull/26) at `fcfd6ecf421609d8ec72adecf5bcfaafb3f90316`; protected `develop` squash merge `18de9b0ae3b458ad52c5bbe41dfe5175cae28225`; **separate TPO acceptance** recorded in [S-145](https://linear.app/s-kelly/issue/S-145) on 2026-10-29. The other four actions and all proposed synchronizations remain unaccepted. CI UNKNOWN, historical public disclosure audit INCOMPLETE; no Phase 005-D exit, implementation, or Phase 006 admission. This follows the [independently qualified, TPO-admitted entry](005-d-entry-assessment.md), [S-145](https://linear.app/s-kelly/issue/S-145), the [Phase 005 composition contract](composition-synchronization-contract.md), [C3](../../canonical/concepts/c3-scoped-authorization.md), [R-06](../../canonical/concepts/r06-work-outcome-accountability.md), and [Phase 000 intake](../../canonical/project/intake.md). Source-owned intrinsic guards are unchanged. The six-action table below preserves the **initial candidate snapshot**. The later 005-D1 decision controls accepted status: only `ConsiderScope` and `RequestWork` are direct conceptual actions; the other four remain conditional/HOLD. None grants project-local authority.
 
 ## Deliberate six-action application surface
 
@@ -22,9 +22,9 @@ tags: [phase-005, composition, application-actions, six-action-tranche, review-c
 
 A **direct candidate** is conceptual exposure only, not a UI/API/role implementation or accepted action. No `system-triggered` or `composition-only` classification is supported by the current source for this tranche. C2 `InspectInquiry` is **excluded** pending CF-1 attributable source-owner confirmation.
 
-## 005-D1 — Source-qualified exposure decision candidate (not yet accepted)
+## 005-D1 — Source-qualified exposure decision (independently reviewed; TPO accepted)
 
-**Narrow decision requested:** From the six reviewed candidates, qualify only **C3 `ConsiderScope`** and **R-06 `RequestWork`** as conceptually direct application actions. Their source-owned meanings are independently complete: [C3](../../canonical/concepts/c3-scoped-authorization.md) presents a decision scope and external obligation claims without creating permission; [R-06](../../canonical/concepts/r06-work-outcome-accountability.md) records an actor-attributed bounded unit/revision request without attempt, completion or permission. This is an application-action *availability* proposal, **not** a grant to an arbitrary actor, a UI/API decision, a system trigger, or a project-local policy waiver. Any concrete invocation must still satisfy source guards and applicable local access/security authority.
+**Accepted narrow decision:** Following the exact-head review, protected merge and separate TPO acceptance linked above, qualify only **C3 `ConsiderScope`** and **R-06 `RequestWork`** as conceptually direct application actions. Their source-owned meanings are independently complete: [C3](../../canonical/concepts/c3-scoped-authorization.md) presents a decision scope and external obligation claims without creating permission; [R-06](../../canonical/concepts/r06-work-outcome-accountability.md) records an actor-attributed bounded unit/revision request without attempt, completion or permission. This is accepted conceptual application-action *availability*, **not** a grant to an arbitrary actor, a UI/API decision, a system trigger, or a project-local policy waiver. Any concrete invocation must still satisfy source guards and applicable local access/security authority.
 
 **Negative controls:** A review PASS, obligation claim or `ConsiderScope` never triggers `Authorize`. `RequestWork(U,r1,actor)` does not imply `AcknowledgeRequest`, `RecordAttempt`, `SubstantiateOutcome`, or permission to execute; missing actor attribution or bounded unit/revision fails the source contract. Neither direct action requires the other, and no synchronization edge is proposed.
 
@@ -39,7 +39,7 @@ A **direct candidate** is conceptual exposure only, not a UI/API/role implementa
 
 **Accountability:** TPO routes these source-owner/authority questions using [Phase 004 F1/F2](../004/004-f2-obligation-navigation-crosswalk.md) and [S-145](https://linear.app/s-kelly/issue/S-145). GitHub authorship is contributor provenance, not proof of an accountable human owner. A missing Linear assignee is metadata debt, not a veto on the two non-permission-creating candidate actions. No new project-local authority or privacy rule is inferred.
 
-**Acceptance gate:** Independent **exact-head** semantic review must explicitly judge this **two-action conceptual exposure proposal**, not merely whether a candidate document is internally consistent. A PASS supports a separate TPO accepted-work decision; it does not itself adopt the exposures, approve a merge, authorize execution, close 005-D/005, or admit Phase 006. Preserve CF-1 C2 exclusion, RD-15, frozen Q4/Q5, safety contest/history, separate S-40 HOLD and non-authoritative S-140.
+**Acceptance gate disposition:** The required independent exact-head semantic review, separate Codex receipt, protected merge and separate TPO accepted-work decision have been recorded for **these two actions only**. This does not accept any other action, authorize execution, close 005-D/005, or admit Phase 006. Preserve CF-1 C2 exclusion, RD-15, frozen Q4/Q5, safety contest/history, separate S-40 HOLD and non-authoritative S-140.
 
 ## C3 scope ↔ R-06 work-unit synchronization test
 
@@ -57,8 +57,8 @@ A **direct candidate** is conceptual exposure only, not a UI/API/role implementa
 
 ## Disposition and remaining gates
 
-- **Qualified for further independent review:** six provisional exposure classifications and a documented **no-mandatory-sync** conclusion for this specific scope/request pair, with explicit counterexample and reopening condition. These are not final 005-D exit decisions.
+- **Accepted only in 005-D1:** C3 `ConsiderScope` and R-06 `RequestWork` are directly available conceptual application actions with existing intrinsic guards; no mandatory synchronization edge accepted. The other four exposure classifications and the scope/work seam trace remain candidate/conditional and are not final 005-D exit decisions.
 - **HOLD for authority/source evidence:** direct C3 `Authorize` exposure, access constraints for inspection, exact project-local scope/work identity policy and any positive multi-action synchronization. Route to attributable qualified purpose/authority owner; do not infer human identity from a shared contributor account.
 - **Preserve:** RD-15, frozen Q4/Q5, CF-1 C2 exclusion, R-06 contest/safety/history, separate S-40 HOLD, and non-authoritative S-140. Phase 006 inclusion, Phase 007 mapping, Phase 008 reuse, implementation and release are not admitted.
 - **Phase 005 exit sufficiency:** the separate purpose-to-capability sufficiency check must trace the entire Phase 000/001 purpose baseline. This six-action assessment does **not** establish completeness for work admission/prioritization, reviewer recovery, cross-repository coordination, evidence reconciliation or release coordination.
-- **Assurance:** obtain independent exact-head semantic verdict and separate code/document review receipt before treating these proposed exposure decisions as accepted. CI UNKNOWN unless independently verified; historical public disclosure audit INCOMPLETE. No automatic merge or phase progression.
+- **Assurance:** PR #26 has independent exact-head Cursor semantic PASS and separate Codex no-major-findings receipt for the two-action decision; TPO acceptance is separately recorded. New exposure or synchronization decisions require their own qualified evidence and independent review. CI UNKNOWN unless independently verified; historical public disclosure audit INCOMPLETE. No automatic phase progression.
