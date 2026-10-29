@@ -53,6 +53,18 @@ For each material application-level behavior identified for Phase 005, record on
 
 Do not force a synchronization merely to fill a matrix. Do require an explanation for application behavior that spans independent concepts.
 
+## 2A. Purpose-to-capability sufficiency check
+
+Trace every material capability required by the canonical Phase 000 intake and Phase 001 purpose/success baseline to an attributable concept or application behavior. Use the existing OKF knowledge graph and qualification evidence; do not invent a new mandatory reviewer or separate acceptance bureaucracy. For each capability record exactly one supported disposition:
+
+- **Covered intrinsically:** identify the canonical concept and action(s) that fulfill it independently.
+- **Covered by composition:** identify qualified application action(s), participants and synchronization or deliberate independent/no-sync behavior that fulfills it.
+- **Requires concept reconsideration:** identify the missing independent semantic behavior and return to the natural Phase 002–004 owner before claiming Phase 005 exit.
+- **Engineering concern:** demonstrate that the capability is a realization mechanism rather than an unfulfilled user-facing conceptual promise; name the downstream handoff.
+- **Deferred or excluded:** cite the authorized scope decision, accountable owner, and reopening trigger. An unapproved deferral is not a sufficiency PASS.
+
+Explicitly test work admission/prioritization, reviewer unavailability and recovery, cross-repository coordination, evidence reconciliation, and release coordination against the actual project purposes without presuming five new concepts. Record missing coverage as a design obligation, not a manufactured synchronization. Recheck material findings in Phase 009 integrity, Phase 010 scenarios and Phase 011 closure. This is a Phase 005 **exit** test, not a retroactive condition on previously admitted 005-D bounded work.
+
 ## 3. Synchronization semantic audit
 
 For every material synchronization, verify as relevant:
