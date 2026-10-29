@@ -283,6 +283,7 @@ If composition work immediately depends on an unsound concept boundary or undefi
 
 Phase 005 may exit only when its final project-specific exit review establishes that:
 
+- each material purpose/capability from the canonical Phase 000/001 baseline has a source-linked sufficiency disposition: covered intrinsically, covered by qualified composition, requires concept reconsideration in Phase 002–004, engineering-only realization, or explicitly deferred/excluded with authority, owner and trigger; missing conceptual behavior cannot be passed off as implementation or a future phase;
 - material application-level cross-concept behavior is explicitly explained;
 - synchronizations have clear enough triggers/participants/bindings/conditions/results to be understood conceptually;
 - the application action surface is deliberate rather than an accidental union of all concept actions;
