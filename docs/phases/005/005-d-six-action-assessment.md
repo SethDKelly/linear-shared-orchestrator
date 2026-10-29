@@ -22,6 +22,25 @@ tags: [phase-005, composition, application-actions, six-action-tranche, review-c
 
 A **direct candidate** is conceptual exposure only, not a UI/API/role implementation or accepted action. No `system-triggered` or `composition-only` classification is supported by the current source for this tranche. C2 `InspectInquiry` is **excluded** pending CF-1 attributable source-owner confirmation.
 
+## 005-D1 — Source-qualified exposure decision candidate (not yet accepted)
+
+**Narrow decision requested:** From the six reviewed candidates, qualify only **C3 `ConsiderScope`** and **R-06 `RequestWork`** as conceptually direct application actions. Their source-owned meanings are independently complete: [C3](../../canonical/concepts/c3-scoped-authorization.md) presents a decision scope and external obligation claims without creating permission; [R-06](../../canonical/concepts/r06-work-outcome-accountability.md) records an actor-attributed bounded unit/revision request without attempt, completion or permission. This is an application-action *availability* proposal, **not** a grant to an arbitrary actor, a UI/API decision, a system trigger, or a project-local policy waiver. Any concrete invocation must still satisfy source guards and applicable local access/security authority.
+
+**Negative controls:** A review PASS, obligation claim or `ConsiderScope` never triggers `Authorize`. `RequestWork(U,r1,actor)` does not imply `AcknowledgeRequest`, `RecordAttempt`, `SubstantiateOutcome`, or permission to execute; missing actor attribution or bounded unit/revision fails the source contract. Neither direct action requires the other, and no synchronization edge is proposed.
+
+**Explicit non-decisions for the other four actions:**
+
+| Action | Disposition until attributable source/authority evidence | Exact reopening evidence |
+| --- | --- | --- |
+| C3 `Withhold` | **Conditional direct candidate**, not accepted: a consequential actor-attributed withholding must honor local eligibility. | Qualified project-local permission-decision actor predicate and attributable source-owner confirmation of direct exposure. |
+| C3 `Authorize` | **HOLD**, not accepted: explicit grant changes bounded permission and cannot follow from review or work state. | Qualified local authority predicate for actor/scope/basis and independently reviewed exposure decision. |
+| C3 `InspectPermission` | **Conditional direct inspection candidate**, not accepted: concept-valid inspection does not establish who may view obligation or actor evidence. | Qualified project-local evidence visibility/access rule and source-owner confirmation that exposure preserves current vs historical permission. |
+| R-06 `InspectOutcome` | **Conditional direct inspection candidate**, not accepted: unit-exists guard and contest/safety/history remain mandatory. | Qualified project-local evidence visibility/access rule and R-06 source-owner confirmation of full canonical inspection semantics. |
+
+**Accountability:** TPO routes these source-owner/authority questions using [Phase 004 F1/F2](../004/004-f2-obligation-navigation-crosswalk.md) and [S-145](https://linear.app/s-kelly/issue/S-145). GitHub authorship is contributor provenance, not proof of an accountable human owner. A missing Linear assignee is metadata debt, not a veto on the two non-permission-creating candidate actions. No new project-local authority or privacy rule is inferred.
+
+**Acceptance gate:** Independent **exact-head** semantic review must explicitly judge this **two-action conceptual exposure proposal**, not merely whether a candidate document is internally consistent. A PASS supports a separate TPO accepted-work decision; it does not itself adopt the exposures, approve a merge, authorize execution, close 005-D/005, or admit Phase 006. Preserve CF-1 C2 exclusion, RD-15, frozen Q4/Q5, safety contest/history, separate S-40 HOLD and non-authoritative S-140.
+
 ## C3 scope ↔ R-06 work-unit synchronization test
 
 **Candidate application promise:** A person can distinguish whether a bounded work request exists from whether an accountable actor explicitly permitted execution of the work within a particular scope. This is a *visibility and distinction* promise; the intake does not presently require that creating a request grants permission or triggers a permission decision.
