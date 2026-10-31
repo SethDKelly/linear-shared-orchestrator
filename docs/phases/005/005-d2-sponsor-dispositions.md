@@ -1,13 +1,13 @@
 ---
 type: Phase Design Candidate
 title: 005-D2 — Sponsor-Directed Action Dispositions and Authority Boundary
-description: Review candidate for bounded Phase 005-D carry-forwards; not accepted action exposure or Phase 005 exit.
-tags: [phase-005, composition, carry-forward, authority, review-candidate]
+description: Independently reviewed and TPO-accepted conditional Phase 005-D dispositions only; no additional action exposure or phase exit.
+tags: [phase-005, composition, carry-forward, authority, conditional-accepted]
 ---
 
-# 005-D2 — Sponsor-directed dispositions (review candidate)
+# 005-D2 — Sponsor-directed conditional dispositions (accepted classification)
 
-**Status: REVIEW CANDIDATE — not independently qualified, not TPO-accepted, and not Phase 005 exit.** This proposal responds to the sponsor's 2026-10-30 decision recorded in [S-145](https://linear.app/s-kelly/issue/S-145). It is subordinate to the [Phase 005 definition](phase-definition.md), [existing 005-D1 decision](005-d-six-action-assessment.md), and canonical [C3](../../canonical/concepts/c3-scoped-authorization.md), [R-06](../../canonical/concepts/r06-work-outcome-accountability.md) and [C2](../../canonical/concepts/c2-living-inquiry.md) specifications. It does not modify intrinsic concept semantics, accept additional application actions, admit 005-E/F, authorize implementation, or establish synchronization.
+**Status: ACCEPTED WITH CARRY-FORWARD — conditional disposition classification only; no additional direct action exposure, synchronization or Phase 005 exit.** Independent Cursor exact-head **PASS WITH CARRY-FORWARD** and separate Codex same-head no-findings on [PR #28](https://github.com/SethDKelly/linear-shared-orchestrator/pull/28) at `19a728bb45aad2d162fd90c6118936b66e6f5185` against protected `develop=27e7a3327619d26577e9284b3aa99af61967bf28`; protected squash merge `8c5d04d86e507a8388c1f004217613b1949ae666`; separate TPO acceptance **of the classification only** recorded in [S-145](https://linear.app/s-kelly/issue/S-145). The disposition follows the sponsor's 2026-10-30 direction. It is subordinate to the [Phase 005 definition](phase-definition.md), [existing 005-D1 decision](005-d-six-action-assessment.md), and canonical [C3](../../canonical/concepts/c3-scoped-authorization.md), [R-06](../../canonical/concepts/r06-work-outcome-accountability.md) and [C2](../../canonical/concepts/c2-living-inquiry.md) specifications. It does not modify intrinsic concept semantics, accept additional application actions, admit 005-E/F, authorize implementation, or establish synchronization.
 
 ## Scope and decision authority
 
@@ -16,7 +16,7 @@ tags: [phase-005, composition, carry-forward, authority, review-candidate]
 - **TPO:** routes scope qualification, actor/source-owner evidence, dependencies, review and acceptance; TPO does not manufacture source-owner confirmation. A missing Linear assignee is metadata debt.
 - **Independent reviewer:** tests the existing contract, source fidelity, negative traces and materiality; review PASS cannot itself create C3 permission.
 
-## Proposed bounded dispositions — subject to independent review and TPO acceptance
+## Bounded dispositions — reviewed and TPO-accepted as classification only
 
 | Item | Candidate disposition | Preserved conceptual obligation and negative trace | Owner function; reopening/next-phase trigger |
 | --- | --- | --- | --- |
@@ -36,4 +36,4 @@ Apply the **existing** Phase 005 exit contract and [exit-review template](exit-r
 
 For independent adversarial assessment, distinguish **material violation of an existing qualified obligation** (HOLD/remediate/reverify), **broken test or verification evidence** (repair verification and re-evaluate), and **nonmaterial later improvement** (log with owner/trigger, do not expand the gate). The sponsor's proposed implementer/reviewer **three meaningful resolution cycles**, then mediator-led **two meaningful closure cycles**, then project-local human break-glass escalation is recorded in [S-140](https://linear.app/s-kelly/issue/S-140) as **non-authoritative methodology direction pending its proper qualification gate**. No cycle is earned by polling alone; no human/mediator decision can fabricate CI, independent evidence, or security clearance.
 
-**Review request:** Verify source/guard fidelity, the conceptual-versus-engineering split, owner/trigger specificity, preservation of CF-1/RD-15/Q4/Q5 and negative no-sync traces, and whether any proposed carry-forward actually masks a material Phase 005 exit defect. Return exact-head PASS, PASS WITH CARRY-FORWARD, or precise HOLD; separate Codex receipt. **No self-certification, merge, Phase 005 exit, Phase 006 admission, implementation or AWS action is implied.** Historical public-disclosure audit remains INCOMPLETE; S-40 is a separate AWS security HOLD.
+**Review disposition:** The exact-head [Cursor PASS WITH CARRY-FORWARD](https://github.com/SethDKelly/linear-shared-orchestrator/pull/28#issuecomment-6537546517), separate [Codex completed/no-findings receipt](https://github.com/SethDKelly/linear-shared-orchestrator/pull/28#issuecomment-6537547928), protected merge and separate S-145 TPO decision qualify the **conditional classification only**. Remaining qualified source-owner/human direct-exposure or intentional-unavailability choices must precede Phase 005 exit; C3 `Withhold` is still unaccepted for direct exposure. Preserve R-06 inspection fidelity (acknowledgment versus attempt, contested/unknown/suspension/history), Q4/Q5 reopening only on material intrinsic evidence plus authorized decision, and CF-1/RD-15 owner/trigger restrictions. **No new action acceptance, Phase 005-D/005 exit, Phase 006 admission, implementation or AWS action is implied.** CI remains UNKNOWN, historical public-disclosure audit INCOMPLETE, and S-40 is a separate AWS security HOLD.
